@@ -1,0 +1,30 @@
+#ss {
+    display: none;
+    color: black;
+    margin-top: 250px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    height: 200px;
+    width: 300px;
+    position: absolute;
+    background-color: white;
+    z-index: 1000;
+    text-align: center;
+    overflow: hidden;
+}
+#ss.show {
+    display: block;
+}
+
+
+.sug {
+    padding: 8px;
+    cursor: pointer;
+}
+
+.sug:hover {
+    background-color: #f0f0f0;
+}
+.mudacor{
+    background-color: #1a1d20;
+}

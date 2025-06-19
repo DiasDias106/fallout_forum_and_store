@@ -1,0 +1,172 @@
+body.ll{
+    background-color: #0047AB;
+    font-family: 'Montserrat', sans-serif;
+}
+div.ctn{
+    width:100%;
+    min-height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+div.tex{
+    color: goldenrod;
+    margin-bottom: 25px;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.carregar{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carregar .line-box1{
+    padding: 2px;
+    width: 40%;
+    height: 20px;
+    border: 2px solid #267191;
+    border-radius: 20px;
+}
+.carregar .line-box1 .line1{
+    height: 20px;
+    border-radius: 20px;
+    background-color: #FFC72C;
+    animation: loading 8s forwards cubic-bezier(0,0,0,0);
+}
+@keyframes loading{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 100%;
+    }
+}
+.endireitar{
+    justify-self: center;
+    padding-top: 20px;
+    padding-left: 100px;
+}
+.endireitar2{
+    justify-self: center;
+    padding-top: 20px;
+}
+.loader {
+    height: 20rem;
+    width: 20rem;
+    background-color: transparent;
+}
+
+.react-star {
+    position: relative;
+    width: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15rem;
+    animation: rotate 3s infinite;
+}
+
+.nucleus {
+    position: absolute;
+
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    background: linear-gradient(#CC0000, #FF3800);
+    height: 2rem;
+    width: 2rem;
+    animation: rotate 1s linear infinite;
+}
+
+.electron {
+    position: absolute;
+    width: 15rem;
+    height: 6rem;
+    border-radius: 50%;
+    border: 0.3rem solid black;
+    animation: revolve 1s linear infinite;
+}
+
+.electron1::before,
+.electron2::before,
+.electron3::before {
+    content: "";
+    position: absolute;
+    top: 60%;
+    left: 100%;
+    transform: translate(-50%, -50%);
+    width: 1rem;
+    height: 1rem;
+    background-color: #FF3800;
+    border-radius: 50%;
+    animation: moveElectron 1s infinite;
+}
+.electron2 {
+    transform: rotate(60deg);
+    animation-delay: -0.66s;
+}
+.electron2::before {
+    animation-delay: -0.66s;
+}
+
+.electron3 {
+    transform: rotate(-60deg);
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg) scale3d(1.1, 1.1, 0);
+    }
+}
+
+@keyframes revolve {
+    0% {
+        border-color: #FFC72C;
+        border-right: transparent;
+    }
+    25% {
+        border-color: #FFC72C;
+        border-bottom-color: transparent;
+    }
+    50% {
+        border-color: #FFC72C;
+        border-left-color: transparent;
+    }
+    75% {
+        border-color: #FFC72C;
+        border-top-color: transparent;
+    }
+    100% {
+        border-color: #FFC72C;
+        border-right-color: transparent;
+    }
+}
+
+@keyframes moveElectron {
+    0% {
+        top: 60%;
+        left: 100%;
+    }
+    25% {
+        top: 100%;
+        left: 60%;
+    }
+    50% {
+        top: 60%;
+        left: 0%;
+    }
+    75% {
+        top: 0%;
+        left: 60%;
+    }
+    100% {
+        top: 60%;
+        left: 100%;
+    }
+}
+
