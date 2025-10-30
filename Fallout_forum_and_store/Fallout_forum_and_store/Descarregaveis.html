@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.5.0/remixicon.min.css">
+    <link rel="icon" href="imagens/FoS_bottle_cap.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/estilos2.css">
+    <link rel="stylesheet" href="css/estilos4.css">
+    <link rel="stylesheet" href="css/estilos7.css">
+    <link href="https://fonts.googleapis.com/css2?family=Atomic+Age&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <title>Wasteland News</title>
+</head>
+<body>
+<header class="header" id="header">
+    <nav class="nav container">
+        <a href="index.html" class="nav_logo"><img src="imagens/wasteland_news_logo2.png" style="height: 50px"></a>
+
+        <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+                <li class="nav__item">
+                    <a href="index.html" class="nav__link">
+                        <i class="ri-arrow-right-up-line"></i>
+                        <span>Home</span>
+                    </a>
+                </li>
+
+                <li class="nav__item">
+                    <a href="sobre.html" class="nav__link">
+                        <i class="ri-arrow-right-up-line"></i>
+                        <span>jogos</span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="fallout_76.html">Fallout 76</a></li>
+                        <li><a href="fallout_4.html">Fallout 4</a></li>
+                        <li><a href="fallout_3.html">Fallout 3</a></li>
+                        <li><a href="fallout_nv.html">Fallout New Vegas</a></li>
+                        <li><a href="falloutshelter.html">Fallout Shelter</a></li>
+                        <li><a href="fallouttactics.html">Fallout Tactics</a></li>
+                        <li><a href="fallout_2.html">Fallout 2</a></li>
+                        <li><a href="fallout_1.html">Fallout 1</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav__item dropdown">
+                    <a href="hub_aplicacoes.html" class="nav__link">
+                        <i class="ri-arrow-right-up-line"></i>
+                        <span>Aplicações</span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="adivinhanum.php">Adivinha numero</a></li>
+                        <li><a href="calculadora.html">Calculadora</a></li>
+                        <li><a href="conversormoedas.php">Converosor Moedas</a></li>
+                        <li><a href="contador_final.php">Contador Final</a></li>
+                        <li><a href="jogoforca.php">Jogo Forca</a></li>
+                        <li><a href="jogodosdados.php">Jogo Dados</a></li>
+                        <li><a href="php/maquinadoselos.php">Maquina dos selos</a></li>
+                        <li><a href="Descarregaveis.html">Descarregaveis</a> </li>
+                        <li><a href="pesquisa_personagem.php">Central de Informações</a> </li>
+                    </ul>
+                </li>
+
+                <li class="nav__item">
+                    <a href="loading_page2.html" class="nav__link">
+                        <i class="ri-arrow-right-up-line"></i>
+                        <span>Outros</span>
+                    </a>
+                </li>
+
+                <li class="nav__item">
+                    <a href="contactos.html" class="nav__link">
+                        <i class="ri-arrow-right-up-line"></i>
+                        <span>Contacts</span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="loginesignin.php">Login</a></li>
+                        <li><a href="loginesignin.php">Sign in</a></li>
+                        <li><a href="queixas.php">Queixas</a></li>
+                        <li><a href="localizacao.html">Localização</a></li>
+                        <li><a href="noticias.html">Noticias</a></li>
+                        <li><a href="Descarregaveis.html">Descarregaveis</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+            <div class="nav__close" id="nav-close">
+                <i class="ri-close-large-line"></i>
+            </div>
+
+            <div class="nav__social">
+                <a href="hub_leaderboard.html" target="_blank" class="nav__social-link">
+                    <i class="ri-trophy-fill"></i>
+                </a>
+                <a href="loginesignin.php" target="_blank" class="nav__social-link">
+                    <i class="fa-solid fa-user"></i>
+                </a>
+                <a href="hub_aplicacoes.html" target="_blank" class="nav__social-link">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </a>
+                <a href="localizacao.html" target="_blank" class="nav__social-link">
+                    <i class="fa-solid fa-location-dot"></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle" style="padding-right: 30px">
+            <i class="ri-menu-line"></i>
+        </div>
+    </nav>
+</header>
+    <section class="descarrega tree-view">
+        <div class=" tree-view-item folder" onclick="toggleFolder(this)">
+            <span style="font-size: 40px">📁Forum</span>
+            <div class="content" style="display: none;">
+                <div class="tree-view-item folder" onclick="toggleFolder(this)">
+                    <span style="font-size: 30px">📁Jogos</span>
+                    <div class="content" style="display: none;">
+                        <div class="tree-view-item folder" onclick="toggleFolder(this)">
+                            <span style="font-size: 25px">📁Fallout 76</span>
+                            <div class="content" style="display: none;">
+                                <a style="font-size: 20px" class="tree-view-item" href="imagens/fallout76_img1.jpg" download="fallout76_img1.jpg"> 🖼 Fallout 76 Imagem 1</a><br>
+                                <a style="font-size: 20px" class="tree-view-item" href="imagens/fallout76_img2.png" download="fallout76_img2.png"> 🖼 Fallout 76 Imagem 2</a><br>
+                                <a style="font-size: 20px" class="tree-view-item" href="imagens/Fallout76_img3.png" download="fallout76_img3.png"> 🖼 Fallout 76 Imagem 3</a><br>
+                                <a style="font-size: 20px" class="tree-view-item" href="imagens/Fallout76_imagem_sugestao.webp" download="fallout76_imagem_sugestao.webp"> 🖼 Fallout 76 Sugestao</a><br>
+                                <a style="font-size: 20px" class="tree-view-item" href="imagens/Fallout_76_cover.jpg" download="fallout_76_cover.jpg"> 🖼 Fallout 76 capa</a><br>
+                                <a style="font-size: 20px" class="tree-view-item" href="imagens/Fallout_76_imagemcarrosel2.webp" download="fallout_76_imagemcarrosel2.webp"> 🖼 Fallout 76 Carrossel 1</a><br>
+                                <a style="font-size: 20px" class="tree-view-item" href="imagens/Fallout_76_imagemcarrosel3.webp" download="fallout_76_imagemcarrosel3.webp"> 🖼 Fallout 76 Carrossel 2</a><br>
+                                <a style="font-size: 20px" class="tree-view-item" href="imagens/Fallout_76_imagemcarrrosel1.webp" download="fallout_76_imagemcarrrosel1.webp"> 🖼 Fallout 76 Carrossel 3</a><br>
+                            </div>
+                        </div>
+                        <div class="tree-view-item folder" onclick="toggleFolder(this)">
+                            <span style="font-size: 25px">📁Fallout 4</span>
+                            <div class="content" style="display: none;">
+                                <a style="font-size: 20px" class="tree-view-item" href="imagens/fallout4_card1.webp" download="fallout4_card1.webp"> 🖼 Fallout 4 Card 1</a><br>
+                                <a style="font-size: 20px" class="tree-view-item" href="imagens/fallout4_card2.avif" download="fallout4_card2.avif"> 🖼 Fallout 4 Card 2</a><br>
+                                <a style="font-size: 20px" class="tree-view-item" href="imagens/Fallout4_card3.avif" download="fallout4_card3.avif"> 🖼 Fallout 4 Card 3</a><br>
+                                <a style="font-size: 20px" class="tree-view-item" href="imagens/fallout4_carrosel1.webp" download="fallout4_carrosel1.webp"> 🖼 Fallout 4 Carrossel 1</a><br>
+                                <a style="font-size: 20px" class="tree-view-item" href="imagens/fallout4_carrrosel2.webp" download="fallout4_carrrosel2.webp"> 🖼 Fallout 4 Carrossel 2</a><br>
+                                <a style="font-size: 20px" class="tree-view-item" href="imagens/fallout4_carrosel3.webp" download="fallout4_carrrosel3.webp"> 🖼 Fallout 4 Carrossel 3</a><br>
+                                <a style="font-size: 20px" class="tree-view-item" href="imagens/Fallout4_img1.png" download="fallout4_img1.png"> 🖼 Fallout 4 Imagem 1</a><br>
+                                <a style="font-size: 20px" class="tree-view-item" href="imagens/Fallout_4_front.webp" download="fallout_4_front.webp"> 🖼 Fallout 4 Capa</a><br>
+                            </div>
+                        </div>
+                        <div class="tree-view-item folder" onclick="toggleFolder(this)">
+                            <span style="font-size: 25px">📁Fallout 3</span>
+                            <div class="content" style="display: none;">
+                                <a style="font-size: 20px" class="tree-view-item"  href="imagens/fallout3_card1.webp" download="fallout3_card1.webp"> 🖼 Fallout 3 Card 1</a><br>
+                                <a style="font-size: 20px" class="tree-view-item"  href="imagens/fallout3_card2.jpg" download="fallout3_card2.jpg"> 🖼 Fallout 3 Card 2</a><br>
+                                <a style="font-size: 20px" class="tree-view-item"  href="imagens/fallout3_card3.jpg" download="fallout3_card3.jpg"> 🖼 Fallout 3 Card 3</a><br>
+                                <a style="font-size: 20px" class="tree-view-item"  href="imagens/fallout3_carrosel1.png" download="fallout3_carrosel1.png"> 🖼 Fallout 3 Carrossel 1</a><br>
+                                <a style="font-size: 20px" class="tree-view-item"  href="imagens/fallout3_carrosel2.webp" download="fallout3_carrrosel2.webp"> 🖼 Fallout 3 Carrossel 2</a><br>
+                                <a style="font-size: 20px" class="tree-view-item"  href="imagens/fallout3_carrosel3.avif" download="fallout3_carrrosel3.avif"> 🖼 Fallout 3 Carrossel 3</a><br>
+                                <a style="font-size: 20px" class="tree-view-item"  href="imagens/fallout3_background.jpg" download="fallout3_background.jpg"> 🖼 Fallout 3 Fundo 1</a><br>
+                                <a style="font-size: 20px" class="tree-view-item"  href="imagens/fallout3_fundo.jpg" download="fallout3_fundo.jpg"> 🖼 Fallout 3 Fundo 2</a><br>
+                            </div>
+                        </div>
+                        <div class="tree-view-item folder" onclick="toggleFolder(this)">
+                            <span style="font-size: 25px">📁Fallout new Vegas</span>
+                            <div class="content" style="display: none;">
+                                <a style="font-size: 20px" class="tree-view-item"  href="imagens/fallout_nv_card1.avif" download="fallout_nv_card1.avif"> 🖼 Fallout New Vegas Card 1</a><br>
+                                <a style="font-size: 20px" class="tree-view-item"  href="imagens/fallout_nv_card2.avif" download="fallout_nv_card2.avif"> 🖼 Fallout New Vegas Card 2</a><br>
+                                <a style="font-size: 20px" class="tree-view-item"  href="imagens/fallout_nv_carrosel1.jpg" download="fallout_nv_carrosel1.jpg"> 🖼 Fallout New Vegas Carrossel 1</a><br>
+                                <a style="font-size: 20px" class="tree-view-item"  href="imagens/fallout_nv_carrosel2.jpg" download="fallout_nv_carrosel2.jpg"> 🖼 Fallout New Vegas Carrossel 2</a><br>
+                                <a style="font-size: 20px" class="tree-view-item"  href="imagens/fallout_nv_carrosel3.jpg" download="fallout_nv_carrosel3.jpg"> 🖼 Fallout New Vegas Carrossel 3</a><br>
+                                <a style="font-size: 20px" class="tree-view-item"  href="imagens/fallout_nv_background.jpeg" download="fallout_nv_background.jpeg"> 🖼 Fallout New Vegas Fundo </a><br>
+                                <a style="font-size: 20px" class="tree-view-item"  href="imagens/fallout_nv_sugestao.jpg" download="fallout_nv_sugestao.jpg"> 🖼 Fallout New Vegas Sugestão</a><br>
+                            </div>
+                        </div>
+                        <div class="tree-view-item folder" onclick="toggleFolder(this)">
+                            <span style="font-size: 25px">📁Fallout 2</span>
+                            <div class="content" style="display: none;">
+                                <a style="font-size: 20px" class="tree-view-item" href="imagens/fallout2_card1.webp" download="fallout2_card1.webp"> 🖼 Fallout 2 Card 1</a><br>
+                                <a style="font-size: 20px" class="tree-view-item" href="imagens/fallout2_carrosel1.jpg" download="fallout2_carrosel1.jpg"> 🖼 Fallout 2 Carrossel 1</a><br>
+                                <a style="font-size: 20px" class="tree-view-item" href="imagens/fallout2_carrosel2.png" download="fallout2_carrosel2.png"> 🖼 Fallout 2 Carrossel 2</a><br>
+                                <a style="font-size: 20px" class="tree-view-item" href="imagens/fallout2_carrosel3.jpg" download="fallout2_carrosel3.jpg"> 🖼 Fallout 2 Carrossel 3</a><br>
+                                <a style="font-size: 20px" class="tree-view-item" href="imagens/fallout_2_background.jpg" download="fallout_2_background.jpg"> 🖼 Fallout 2 Fundo </a><br>
+                                <a style="font-size: 20px" class="tree-view-item" href="imagens/fallout2_sugestao.jpg" download="fallout2_sugestao.jpg"> 🖼 Fallout 2 Sugestão</a><br>
+                            </div>
+                        </div>
+                        <div class="tree-view-item folder" onclick="toggleFolder(this)">
+                            <span style="font-size: 25px">📁Fallout 1</span>
+                            <div class="content" style="display: none;">
+                                <a style="font-size: 20px" class="tree-view-item" href="imagens/fallout_1.jpg" download="fallout_1.jpg"> 🖼 Fallout 1 Imagem 1</a><br>
+                                <a style="font-size: 20px" class="tree-view-item" href="imagens/fallout1_carrosel1.jpg" download="fallout1_carrosel1.jpg"> 🖼 Fallout 1 Carrossel 1</a><br>
+                                <a style="font-size: 20px" class="tree-view-item" href="imagens/fallout1_carrosel2.png" download="fallout1_carrosel2.png"> 🖼 Fallout 1 Carrossel 2</a><br>
+                                <a style="font-size: 20px" class="tree-view-item" href="imagens/fallout1_carrosel3.png" download="fallout1_carrosel3.png"> 🖼 Fallout 1 Carrossel 3</a><br>
+                                <a style="font-size: 20px" class="tree-view-item" href="imagens/fallout1_background.jpg" download="fallout1_background.jpg"> 🖼 Fallout 1 Fundo </a><br>
+                                <a style="font-size: 20px" class="tree-view-item" href="imagens/fallout1_sugestao.jpg" download="fallout1_sugestao.jpg"> 🖼 Fallout 1 Sugestao 1</a><br>
+                            </div>
+                        </div>
+                        <div class="tree-view-item folder" onclick="toggleFolder(this)">
+                            <span style="font-size: 25px">📁Fallout Shelter</span>
+                            <div class="content" style="display: none;">
+                                <a style="font-size: 20px" class="tree-view-item" href="imagens/falloutshelter_img2.webp" download="falloutshelter_img2.webp"> 🖼 Fallout Shelter Imagem 1</a><br>
+                                <a style="font-size: 20px" class="tree-view-item" href="imagens/falloutshelter_capa.avif" download="falloutshelter_capa.avif"> 🖼 Fallout Shelter Capa 1</a><br>
+                                <a style="font-size: 20px" class="tree-view-item" href="imagens/falloutshelter_ingame1.webp" download="falloutshelter_ingame1.webp"> 🖼 Fallout Shelter Ingame 1</a><br>
+                                <a style="font-size: 20px" class="tree-view-item" href="imagens/falloutshelter_ingame3.webp" download="falloutshelter_ingame3.webp"> 🖼 Fallout Shelter Ingame 2</a><br>
+                                <a style="font-size: 20px" class="tree-view-item" href="imagens/falloutshelter_background.jpg" download="falloutshelter_background.jpg"> 🖼 Fallout Shelter Fundo</a><br>
+                                <a style="font-size: 20px" class="tree-view-item" href="imagens/falloutshelter_sujestao.jpg" download="falloutshelter_sugestao.jpg"> 🖼 Fallout Shelter Sugestão</a><br>
+                            </div>
+                        </div>
+                        <div class="tree-view-item folder" onclick="toggleFolder(this)">
+                            <span style="font-size: 25px">📁Fallout Tactics</span>
+                            <div class="content" style="display: none;">
+                                <a style="font-size: 20px" class="tree-view-item" href="imagens/fallout_tactics_card1.jpg" download="fallout_tactics_card1.jpg"> 🖼 Fallout Tactics Card 1</a><br>
+                                <a style="font-size: 20px" class="tree-view-item" href="imagens/fallouttactics_capa.jpg" download="fallouttactics_capa.jpg"> 🖼 Fallout Tactics Capa</a><br>
+                                <a style="font-size: 20px" class="tree-view-item" href="imagens/fallouttactics_ingame1.gif" download="fallouttactics_ingame1.gif"> 🖼 Fallout Tactics Ingame 1</a><br>
+                                <a style="font-size: 20px" class="tree-view-item" href="imagens/fallouttactics_ingame2.jpg" download="fallouttactics_ingame2.jpg"> 🖼 Fallout Tactics Ingame 2</a><br>
+                                <a style="font-size: 20px" class="tree-view-item" href="imagens/fallouttactics_ingame3.jpg" download="fallouttactics_ingame3.jpg"> 🖼 Fallout Tactics Ingame 3</a><br>
+                                <a style="font-size: 20px" class="tree-view-item" href="imagens/fallouttactics_background.jpg" download="fallouttactics_background.jpg"> 🖼 Fallout Tactics Fundo 1</a><br>
+                                <a style="font-size: 20px" class="tree-view-item" href="imagens/fallout_tactics_background.jpg" download="fallout_tactics_background.jpg"> 🖼 Fallout Tactics Fundo 2</a><br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tree-view-item folder" onclick="toggleFolder(this)">
+                    <span style="font-size: 30px">📁Musicas</span>
+                    <div class="content" style="display: none;">
+                        <div class="tree-view-item folder" onclick="toggleFolder(this)">
+                            <span style="font-size: 25px">📁Fallout 76</span>
+                            <div class="content" style="display: none;">
+                                <a style="font-size: 20px" class="tree-view-item"  href="imagens/fallout76_music1.jpg" download="fallout76_music1.jpg"> 🖼 Fallout 76 Musica 1</a><br>
+                                <a style="font-size: 20px" class="tree-view-item" href="imagens/fallout76_music2.jpg" download="fallout76_music2.jpg"> 🖼 Fallout 76 Musica 2</a><br>
+                                <a style="font-size: 20px" class="tree-view-item" href="imagens/fallout76_music3.jpg" download="fallout76_music3.jpg"> 🖼 Fallout 76 Musica 3</a><br>
+                                <a style="font-size: 20px" class="tree-view-item" href="imagens/fallout76_music4.jpg" download="fallout76_music4.jpg"> 🖼 Fallout 76 Musica 4</a><br>
+                                <a style="font-size: 20px" class="tree-view-item" href="imagens/fallout76_music5.jpg" download="fallout76_music5.jpg"> 🖼 Fallout 76 Musica 5</a><br>
+                                <a style="font-size: 20px" class="tree-view-item" href="imagens/fallout76_music6.jpg" download="fallout76_music6.jpg"> 🖼 Fallout 76 Musica 6</a><br>
+                            </div>
+                        </div>
+                        <div class="tree-view-item folder" onclick="toggleFolder(this)">
+                            <span style="font-size: 25px">📁Fallout 4</span>
+                            <div class="content" style="display: none;">
+                                <a style="font-size: 20px" class="tree-view-item" href="imagens/fallout4_music1.jpg" download="fallout4_music1.jpg"> 🖼 Fallout 4 Musica 1</a><br>
+                                <a style="font-size: 20px" class="tree-view-item" href="imagens/fallout4_music2.jpg" download="fallout4_music2.jpg"> 🖼 Fallout 4 Musica 2</a><br>
+                                <a style="font-size: 20px" class="tree-view-item" href="imagens/fallout4_music3.jpg" download="fallout4_music3.jpg"> 🖼 Fallout 4 Musica 3</a><br>
+                                <a style="font-size: 20px" class="tree-view-item" href="imagens/fallout4_music4.jpg" download="fallout4_music4.jpg"> 🖼 Fallout 4 Musica 4</a><br>
+                                <a style="font-size: 20px" class="tree-view-item" href="imagens/fallout4_music5.png" download="fallout4_music5.png"> 🖼 Fallout 4 Musica 5</a><br>
+                                <a style="font-size: 20px" class="tree-view-item" href="imagens/fallout4_music6.jpg" download="fallout4_music6.jpg"> 🖼 Fallout 4 Musica 6</a><br>
+                            </div>
+                        </div>
+                        <div class="tree-view-item folder" onclick="toggleFolder(this)">
+                            <span style="font-size: 25px">📁Fallout 3</span>
+                            <div class="content" style="display: none;">
+                                <a style="font-size: 20px" class="tree-view-item" href="imagens/fallout3_music1.jpg" download="fallout3_music1.jpg"> 🖼 Fallout 3 Musica 1</a><br>
+                                <a style="font-size: 20px" class="tree-view-item" href="imagens/fallout3_music2.jpg" download="fallout3_music2.jpg"> 🖼 Fallout 3 Musica 2</a><br>
+                                <a style="font-size: 20px" class="tree-view-item" href="imagens/fallout3_music3.jpg" download="fallout3_music3.jpg"> 🖼 Fallout 3 Musica 3</a><br>
+                                <a style="font-size: 20px" class="tree-view-item" href="imagens/fallout3_music4.jpg" download="fallout3_music4.jpg"> 🖼 Fallout 3 Musica 4</a><br>
+                                <a style="font-size: 20px" class="tree-view-item" href="imagens/fallout3_music5.jpg" download="fallout3_music5.jpg"> 🖼 Fallout 3 Musica 5</a><br>
+                                <a style="font-size: 20px" class="tree-view-item" href="imagens/fallout3_music6.webp" download="fallout3_music6.webp"> 🖼 Fallout 3 Musica 6</a><br>
+                            </div>
+                        </div>
+                        <div class="tree-view-item folder" onclick="toggleFolder(this)">
+                            <span style="font-size: 25px">📁Fallout new Vegas</span>
+                            <div class="content" style="display: none;">
+                                <a style="font-size: 20px" class="tree-view-item" href="imagens/falloutnv_music1.webp" download="falloutnv_music1.webp"> 🖼 Fallout New Vegas Musica 1</a><br>
+                                <a style="font-size: 20px" class="tree-view-item" href="imagens/falloutnv_music2.jpg" download="falloutnv_music2.jpg"> 🖼 Fallout New Vegas Musica 2</a><br>
+                                <a style="font-size: 20px" class="tree-view-item" href="imagens/falloutnv_music3.jpg" download="falloutnv_music3.jpg"> 🖼 Fallout New Vegas Musica 3</a><br>
+                                <a style="font-size: 20px" class="tree-view-item" href="imagens/falloutnv_music4.jpg" download="falloutnv_music4.jpg"> 🖼 Fallout New Vegas Musica 4</a><br>
+                                <a style="font-size: 20px" class="tree-view-item" href="imagens/falloutnv_music5.jpg" download="falloutnv_music5.jpg"> 🖼 Fallout New Vegas Musica 5</a><br>
+                                <a style="font-size: 20px" class="tree-view-item" href="imagens/falloutnv_music6.jpg" download="falloutnv_music6.jpg"> 🖼 Fallout New Vegas Musica 6</a><br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tree-view-item folder" onclick="toggleFolder(this)">
+                <span style="font-size: 30px">📁Aplicações</span>
+                <div class="content" style="display: none;">
+                    <a style="font-size: 20px" class="tree-view-item" href="imagens/adivinha_numero%20imagem.jpg" download="adivinha_numero%20imagem.jpg"> 🖼 Aplicação Imagem 1</a><br>
+                    <a style="font-size: 20px" class="tree-view-item" href="imagens/calculadora_imagens.jpg" download="calculadora_imagens.jpg"> 🖼 Aplicação Imagem 2</a><br>
+                    <a style="font-size: 20px" class="tree-view-item" href="imagens/Api_de_personagens.jpg" download="Api_de_personagens.jpg"> 🖼 Aplicação Imagem 3</a><br>
+                    <a style="font-size: 20px" class="tree-view-item" href="imagens/contador_final_imagem.jpg" download="contador_final_imagem.jpg"> 🖼 Aplicação Imagem 4</a><br>
+                    <a style="font-size: 20px" class="tree-view-item"  href="imagens/descarregaveis_imagem.jpg" download="descarregaveis_imagem.jpg"> 🖼 Aplicação Imagem 5</a><br>
+                    <a style="font-size: 20px" class="tree-view-item" href="imagens/conversor_de_moedas_imagem.jpg" download="conversor_de_moedas_imagem.jpg"> 🖼 Aplicação Imagem 6</a><br>
+                    <a style="font-size: 20px" class="tree-view-item" href="imagens/maquina_dos_selos_imagem.jpg" download="maquina_dos_selos_imagem.jpg"> 🖼 Aplicação Imagem 7</a><br>
+                    <a style="font-size: 20px" class="tree-view-item" href="imagens/jogo_da_forca_imagem.jpg" download="jogo_da_forca_imagem.jpg"> 🖼 Aplicação Imagem 8</a><br>
+                    <a style="font-size: 20px" class="tree-view-item" href="imagens/jogo_dos_dados_imagem.jpg" download="jogo_dos_dados_imagem.jpg"> 🖼 Aplicação Imagem 9</a><br>
+                        </div>
+                    </div>
+        </div>
+        </div>
+            <div class="tree-view-item folder" onclick="toggleFolder(this)">
+                <span style="font-size: 40px">📁Loja</span>
+                <div class="content" style="display: none;">
+                    <div class="tree-view-item folder" onclick="toggleFolder(this)">
+                        <span style="font-size: 30px">📁Jogos</span>
+                        <div class="content" style="display: none;">
+                            <a style="font-size: 20px" class="tree-view-item" href="imagens/adivinha_numero%20imagem.jpg" download="adivinha_numero%20imagem.jpg"> 🖼 Jogo Imagem 1</a><br>
+                            <a style="font-size: 20px" class="tree-view-item" href="imagens/calculadora_imagens.jpg" download="calculadora_imagens.jpg"> 🖼 Jogo Imagem 2</a><br>
+                            <a style="font-size: 20px" class="tree-view-item" href="imagens/Api_de_personagens.jpg" download="Api_de_personagens.jpg"> 🖼 Jogo Imagem 3</a><br>
+                            <a style="font-size: 20px" class="tree-view-item" href="imagens/contador_final_imagem.jpg" download="contador_final_imagem.jpg"> 🖼 Jogo Imagem 4</a><br>
+                            <a style="font-size: 20px" class="tree-view-item" href="imagens/descarregaveis_imagem.jpg" download="descarregaveis_imagem.jpg"> 🖼 Jogo Imagem 5</a><br>
+                            <a style="font-size: 20px" class="tree-view-item" href="imagens/conversor_de_moedas_imagem.jpg" download="conversor_de_moedas_imagem.jpg"> 🖼 Jogo Imagem 6</a><br>
+                            <a style="font-size: 20px" class="tree-view-item" href="imagens/maquina_dos_selos_imagem.jpg" download="maquina_dos_selos_imagem.jpg"> 🖼 Jogo Imagem 7</a><br>
+                            <a style="font-size: 20px" class="tree-view-item" href="imagens/jogo_da_forca_imagem.jpg" download="jogo_da_forca_imagem.jpg"> 🖼 Jogo Imagem 8</a><br>
+                            <a style="font-size: 20px" class="tree-view-item" href="imagens/jogo_dos_dados_imagem.jpg" download="jogo_dos_dados_imagem.jpg"> 🖼 Jogo Imagem 9</a><br>
+                        </div>
+                    </div>
+                    <div class="tree-view-item folder" onclick="toggleFolder(this)">
+                        <span style="font-size: 30px">📁Figuras</span>
+                        <div class="content" style="display: none;">
+                            <a style="font-size: 20px" class="tree-view-item" href="imagens/adivinha_numero%20imagem.jpg" download="adivinha_numero%20imagem.jpg"> 🖼 Figura Imagem 1</a><br>
+                            <a style="font-size: 20px" class="tree-view-item" href="imagens/calculadora_imagens.jpg" download="calculadora_imagens.jpg"> 🖼 Figura Imagem 2</a><br>
+                            <a style="font-size: 20px" class="tree-view-item" href="imagens/Api_de_personagens.jpg" download="Api_de_personagens.jpg"> 🖼 Figura Imagem 3</a><br>
+                            <a style="font-size: 20px" class="tree-view-item" href="imagens/contador_final_imagem.jpg" download="contador_final_imagem.jpg"> 🖼 Figura Imagem 4</a><br>
+                            <a style="font-size: 20px" class="tree-view-item" href="imagens/descarregaveis_imagem.jpg" download="descarregaveis_imagem.jpg"> 🖼 Figura Imagem 5</a><br>
+                            <a style="font-size: 20px" class="tree-view-item" href="imagens/conversor_de_moedas_imagem.jpg" download="conversor_de_moedas_imagem.jpg"> 🖼 Figura Imagem 6</a><br>
+                            <a style="font-size: 20px" class="tree-view-item" href="imagens/maquina_dos_selos_imagem.jpg" download="maquina_dos_selos_imagem.jpg"> 🖼 Figura Imagem 7</a><br>
+                            <a style="font-size: 20px" class="tree-view-item" href="imagens/jogo_da_forca_imagem.jpg" download="jogo_da_forca_imagem.jpg"> 🖼 Figura Imagem 8</a><br>
+                            <a style="font-size: 20px" class="tree-view-item" href="imagens/jogo_dos_dados_imagem.jpg" download="jogo_dos_dados_imagem.jpg"> 🖼 Figura Imagem 9</a><br>
+                        </div>
+                    </div>
+                    <div class="tree-view-item folder" onclick="toggleFolder(this)">
+                        <span style="font-size: 30px">📁Outros items</span>
+                        <div class="content" style="display: none;">
+                            <a style="font-size: 20px" class="tree-view-item"  href="imagens/adivinha_numero%20imagem.jpg" download="adivinha_numero%20imagem.jpg"> 🖼 Outros itens Imagem 1</a><br>
+                            <a style="font-size: 20px" class="tree-view-item" href="imagens/calculadora_imagens.jpg" download="calculadora_imagens.jpg"> 🖼 Outros itens Imagem 2</a><br>
+                            <a style="font-size: 20px" class="tree-view-item" href="imagens/Api_de_personagens.jpg" download="Api_de_personagens.jpg"> 🖼 Outros itens Imagem 3</a><br>
+                            <a style="font-size: 20px" class="tree-view-item" href="imagens/contador_final_imagem.jpg" download="contador_final_imagem.jpg"> 🖼 Outros itens Imagem 4</a><br>
+                            <a style="font-size: 20px" class="tree-view-item" href="imagens/descarregaveis_imagem.jpg" download="descarregaveis_imagem.jpg"> 🖼 Outros itens Imagem 5</a><br>
+                            <a style="font-size: 20px" class="tree-view-item" href="imagens/conversor_de_moedas_imagem.jpg" download="conversor_de_moedas_imagem.jpg"> 🖼 Outros itens Imagem 6</a><br>
+                            <a style="font-size: 20px" class="tree-view-item" href="imagens/maquina_dos_selos_imagem.jpg" download="maquina_dos_selos_imagem.jpg"> 🖼 Outros itens Imagem 7</a><br>
+                            <a style="font-size: 20px" class="tree-view-item" href="imagens/jogo_da_forca_imagem.jpg" download="jogo_da_forca_imagem.jpg"> 🖼 Outros itens Imagem 8</a><br>
+                            <a style="font-size: 20px" class="tree-view-item" href="imagens/jogo_dos_dados_imagem.jpg" download="jogo_dos_dados_imagem.jpg"> 🖼 Outros itens Imagem 9</a><br>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+        <div class="tree-view-item folder" onclick="toggleFolder(this)">
+            <span style="font-size: 40px">📁Outro</span>
+            <div class="content" style="display: none;">
+                <div class="tree-view-item folder" onclick="toggleFolder(this)">
+                    <span style="font-size: 30px">📁imagens de fundo</span>
+                    <div class="content" style="display: none;">
+                        <a style="font-size: 20px" class="tree-view-item" href="imagens/adivinha_numero%20imagem.jpg" download="adivinha_numero%20imagem.jpg"> 🖼 Imagem Fundo 1</a><br>
+                        <a style="font-size: 20px" class="tree-view-item" href="imagens/calculadora_imagens.jpg" download="calculadora_imagens.jpg"> 🖼 Imagem Fundo 2</a><br>
+                        <a style="font-size: 20px" class="tree-view-item" href="imagens/Api_de_personagens.jpg" download="Api_de_personagens.jpg"> 🖼 Imagem Fundo 3</a><br>
+                        <a style="font-size: 20px" class="tree-view-item" href="imagens/contador_final_imagem.jpg" download="contador_final_imagem.jpg"> 🖼 Imagem Fundo 4</a><br>
+                        <a style="font-size: 20px" class="tree-view-item" href="imagens/descarregaveis_imagem.jpg" download="descarregaveis_imagem.jpg"> 🖼 Imagem Fundo 5</a><br>
+                        <a style="font-size: 20px" class="tree-view-item" href="imagens/conversor_de_moedas_imagem.jpg" download="conversor_de_moedas_imagem.jpg"> 🖼 Imagem Fundo 6</a><br>
+                        <a style="font-size: 20px" class="tree-view-item" href="imagens/maquina_dos_selos_imagem.jpg" download="maquina_dos_selos_imagem.jpg"> 🖼 Imagem Fundo 7</a><br>
+                        <a style="font-size: 20px" class="tree-view-item" href="imagens/jogo_da_forca_imagem.jpg" download="jogo_da_forca_imagem.jpg"> 🖼 Imagem Fundo 8</a><br>
+                        <a style="font-size: 20px" class="tree-view-item" href="imagens/jogo_dos_dados_imagem.jpg" download="jogo_dos_dados_imagem.jpg"> 🖼 Imagem Fundo 9</a><br>
+                    </div>
+                </div>
+                <div class="tree-view-item folder" onclick="toggleFolder(this)">
+                    <span style="font-size: 30px">📁icons</span>
+                    <div class="content" style="display: none;">
+                        <a style="font-size: 20px" class="tree-view-item" href="imagens/adivinha_numero%20imagem.jpg" download="adivinha_numero%20imagem.jpg"> 🖼 Imagem Fundo 1</a><br>
+                        <a style="font-size: 20px" class="tree-view-item" href="imagens/calculadora_imagens.jpg" download="calculadora_imagens.jpg"> 🖼 Imagem Fundo 2</a><br>
+                        <a style="font-size: 20px" class="tree-view-item" href="imagens/Api_de_personagens.jpg" download="Api_de_personagens.jpg"> 🖼 Imagem Fundo 3</a><br>
+                        <a style="font-size: 20px" class="tree-view-item" href="imagens/contador_final_imagem.jpg" download="contador_final_imagem.jpg"> 🖼 Imagem Fundo 4</a><br>
+                        <a style="font-size: 20px" class="tree-view-item" href="imagens/descarregaveis_imagem.jpg" download="descarregaveis_imagem.jpg"> 🖼 Imagem Fundo 5</a><br>
+                        <a style="font-size: 20px" class="tree-view-item" href="imagens/conversor_de_moedas_imagem.jpg" download="conversor_de_moedas_imagem.jpg"> 🖼 Imagem Fundo 6</a><br>
+                        <a style="font-size: 20px" class="tree-view-item" href="imagens/maquina_dos_selos_imagem.jpg" download="maquina_dos_selos_imagem.jpg"> 🖼 Imagem Fundo 7</a><br>
+                        <a style="font-size: 20px" class="tree-view-item" href="imagens/jogo_da_forca_imagem.jpg" download="jogo_da_forca_imagem.jpg"> 🖼 Imagem Fundo 8</a><br>
+                        <a style="font-size: 20px" class="tree-view-item"  href="imagens/jogo_dos_dados_imagem.jpg" download="jogo_dos_dados_imagem.jpg"> 🖼 Imagem Fundo 9</a><br>
+                    </div>
+                </div>
+                <div class="tree-view-item folder" onclick="toggleFolder(this)">
+                    <span style="font-size: 30px">📁icos</span>
+                    <div class="content" style="display: none;">
+                        <a style="font-size: 20px" class="tree-view-item" href="imagens/FoS_bottle_cap.ico" download="FoS_bottle_cap.ico"> 🖼 Imagem Ico Wasteland News</a><br>
+                        <a style="font-size: 20px" class="tree-view-item" href="imagens_loja/loja_ico.ico" download="loja_ico.ico"> 🖼 Imagem Ico Atomic Shop</a><br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<footer>
+    <div id="footer_content">
+        <div id="footer_contacts">
+            <img src="imagens/wasteland_news_logo2.png" style="width: 200px;height:auto">
+
+            <div id="footer_social_media">
+                <a href="#" class="footer-link" id="instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="#" class="footer-link" id="github">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="#" class="footer-link" id="linkdin">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+            </div>
+        </div>
+        <ul class="footer-list">
+            <li>
+                <h3>Forum</h3>
+            </li>
+            <li>
+                <a href="sobre.html" class="footer-link">Sobre</a>
+            </li>
+            <li>
+                <a href="noticias.html" class="footer-link">Noticias</a>
+            </li>
+            <li>
+                <a href="hub_aplicacoes.html" class="footer-link">Aplicações</a>
+            </li>
+        </ul>
+        <ul class="footer-list">
+            <li>
+                <h3>Loja</h3>
+            </li>
+            <li>
+                <a href="jogos.php" class="footer-link">Jogos</a>
+            </li>
+            <li>
+                <a href="outros.php" class="footer-link">Items</a>
+            </li>
+            <li>
+                <a href="loja_index.html" class="footer-link">Destaques</a>
+            </li>
+        </ul>
+        <div id="footer_subscribe">
+            <h3>Subscribe</h3>
+            <p>
+                Enter your email to get notified about
+                our news solutions
+            </p>
+            <form action="newsletter.php" method="post">
+                <div id="input_group">
+                    <label for="email"></label><input name="email" type="email" id="email">
+                    <button  type="submit" name="enviar_newsletter">
+                        <i class="fa-solid fa-envelope"></i>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div id="footer_copyright">
+        &#169
+        2024 all right reserved
+    </div>
+</footer>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const myCarousel = document.querySelector('#carosel1');
+        const carousel = new bootstrap.Carousel(myCarousel);
+        setInterval(() => {
+            carousel.next();
+        }, 6000);
+    });
+</script>
+<script src="bootstrap-5.3.3-dist/js/bootstrap.js"></script>
+<script src="bootstrap-5.3.3-dist/js/bootstrap.bundle.js"></script>
+<script src="bootstrap-5.3.3-dist/js/nav.js"></script>
+<script src="bootstrap-5.3.3-dist/js/treeview.js"></script>
+</body>
+</html>

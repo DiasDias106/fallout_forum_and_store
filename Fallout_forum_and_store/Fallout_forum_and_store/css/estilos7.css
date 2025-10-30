@@ -1,0 +1,63 @@
+.descarrega{
+    background-color: #0a0a0a;
+    color: #00ff00;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 90px;
+    text-align: center;
+    width: 100%;
+}
+
+.tree-view {
+    background-color: #0a0a0a;
+    border: 1px solid #00ff00;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    color: #00ff00;
+}
+
+.tree-view::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: linear-gradient(#00ff00 1px, transparent 1px),
+    linear-gradient(90deg, #00ff00 1px, transparent 1px);
+    background-size: 20px 20px;
+    opacity: 0.2;
+    z-index: 1;
+}
+
+.tree-view-item {
+    z-index: 2;
+    position: relative;
+    display: block;
+    color: #00ff00;
+}
+
+.tree-view-item img {
+    margin-right: 10px;
+}
+
+.tree-view-item:hover {
+    background-color: rgba(0, 255, 0, 0.1);
+    cursor: pointer;
+}
+
+.tree-view-item .content {
+    display: none;
+}
+
+
+.tree-view-item.open .content {
+    display: block;
+}
+
+@media screen and (max-width: 768px){
+    .descarrega{
+        margin-top: 58px;
+    }
+}
+

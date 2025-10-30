@@ -1,0 +1,668 @@
+.menu{
+    color: white;
+}
+body{
+    color: #FFC72C;
+    background-color: black;
+    overflow: auto;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+body.f76{
+    background-color: black;
+    color: white;
+    overflow: auto;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body.f76::-webkit-scrollbar {
+    display: none;
+}
+    div#carousel1{
+    display: flex;
+    margin-right: 15%;
+    margin-left: 15%;
+    justify-content: center;
+    flex-direction: row;
+}
+.defenicao{
+    margin-left: 5% ;
+    margin-right: 5%;
+    justify-content: center;
+    margin-top: 12px;
+    padding: 12px;
+}
+.flip-card {
+    width: 500px;
+    height: 450px;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.flip-card img{
+    border:5px solid #333;
+    border-radius: 0 40px 0 40px;
+}
+
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.flip-card-front {
+    background-color: transparent;
+    color: black;
+}
+
+.flip-card-back {
+    background-color: transparent;
+    color: white;
+    transform: rotateY(180deg);
+}
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.justificar{
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+.texto1{
+    text-align: center;
+    margin-top: 15px;
+    border: 4px solid black;
+    border-radius: 12px;
+    height: 400px;
+}
+section.controlo2{
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 50px;
+}
+div.ep1{
+    display: inline-block;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+.t1{
+    border: 3px;
+    border-radius: 15px;
+}
+img.t1:hover {
+    transform:scale(110%);
+}
+footer{
+    background-color: transparent;
+}
+.containfooter{
+    width: 100%;
+    padding: 70px 30px 20px ;
+}
+.footerNavegar{
+    margin: 30px 0;
+}
+.footerNavegar ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.footerNavegar ul li a{
+    color:white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+
+}
+.footerNavegar ul li a:hover{
+    opacity: 1;
+}
+.footerbaixo{
+    background-color: transparent;
+    padding: 20px;
+    text-align: center;
+}
+.footerbaixo p{
+    color: white;
+}
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+.pres1{
+    margin-top: 85px;
+    background-image: url("../imagens/fundo_fallout 76.webp");
+    background-color: black;
+    height: 1100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.item {
+    display: flex;
+    align-items: center;
+    padding-left: 120px;
+}
+
+.icon {
+    width: 20px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.item p {
+    margin: 0;
+}
+.videos{
+   display: inline;
+    padding-left: 35px;
+}
+.videos iframe{
+    border: 5px solid black;
+    border-radius: 20px;
+}
+section.edicoes{
+    justify-content: space-around;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+img.suplementos{
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 50px;
+}
+.suplementos{
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 110px;
+}
+div#carousel1{
+    display: flex;
+    margin-right: 15%;
+    margin-left: 15%;
+    justify-content: center;
+    flex-direction: row;
+}
+div.suplementos1{
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 50px;
+    display: inline;
+}
+.resolver{
+    display: inline;
+    text-align: center;
+    padding-left: 100px;
+}
+.acordiao1{
+    justify-content: center;
+    width: 90%;
+    align-items: center;
+    padding-left: 140px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: center;
+}
+div.gostar1{
+    align-items: center;
+    justify-content: center;
+    height: 600px
+}
+.ep6{
+   justify-content: center;
+   align-items: center;
+}
+.jogomoedas{
+    background-color: rgba(43, 48, 53, 0.9);
+    width: 800px;
+    height: 800px;
+    color: white;
+    justify-self: center;
+    border-radius: 40px;
+}
+.muda{
+    width: 600px;
+    margin-bottom: 20px;
+}
+.pres2{
+    margin-top: 85px;
+    background-image: url("../imagens/fundo_f4.jpg");
+    background-color: black;
+    height: 1100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.pres3{
+    margin-top: 85px;
+    background-image: url("../imagens/fallout3_background.jpg");
+    background-color: black;
+    height: 1100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.pres4{
+    margin-top: 85px;
+    background-image: url("../imagens/fallout_nv_background.jpeg");
+    background-color: black;
+    height: 1100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.pres5{
+    margin-top: 85px;
+    background-image: url("../imagens/fallout_2_background.jpg");
+    background-color: black;
+    height: 1100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.pres6{
+    margin-top: 85px;
+    background-image: url("../imagens/fallout1_background.jpg");
+    background-color: black;
+    height: 1100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.pres7{
+    margin-top: 85px;
+    background-image: url("../imagens/falloutshelter_background3.webp");
+    background-color: black;
+    height: 1100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.pres8{
+    margin-top: 85px;
+    background-image: url("../imagens/fallouttactics_background.jpg");
+    background-color: black;
+    height: 1100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.pres9{
+    margin-top: 85px;
+    background-image: url("../imagens_loja/trading_image.jpg");
+    background-color: black;
+    height: 1000px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.pres10{
+    margin-top: 100px;
+}
+.pres11{
+    background-image: url(../imagens/fallout_guess_number.jpg);
+    background-color: black;
+    height: 1000px;
+    background-repeat: no-repeat;
+}
+.pres13{
+    margin-top: 85px;
+    background-image: url("../imagens_loja/loja_background1.webp");
+    background-color: black;
+    height: 980px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.m-form{
+    background-image: url("../imagens/aultec_mail_bk.webp");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 0 20px;
+}
+div.ep3{
+    display: inline-block;
+    justify-content: space-around;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+.navbar-toggler{
+    background-color:white;
+}
+.conter{
+
+}
+fieldset.caixa{
+    display: block;
+    width: 100%;
+    margin: 20px auto;
+    border: 2px white double;
+    padding: 12px;
+    border-radius:12px;
+    background-color: rgba(0,0,0,0.8);
+
+}
+legend.legendas{
+    background-color: black;
+    color: white;
+    width: 70%;
+    border-radius: 12px;
+    font-family: "Adobe Gothic Std B";
+    font-size: 2.2em;
+    text-align: center;
+}
+#tv{
+    display: block;
+    min-height: 200px;
+    width: 80%;
+    margin: 20px auto;
+    border: 2px solid white;
+    padding: 12px;
+    border-radius: 12px;
+}
+.edicoes{
+    justify-content: space-around;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+.jdados{
+    margin-top: 85px;
+    background-image: url("../imagens/fallout_nv_carrosel2.jpg");
+    background-color: black;
+    height: 1100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.bcalculadora{
+    margin-top: 80px;
+    background-image: url("../imagens/pipboybackground.png");
+    background-color: black;
+    height: 1110px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.bdinheiro{
+    margin-top: 80px;
+    background-image: url("../imagens/dinheiro_fallout.jpg");
+    background-color: black;
+    height: 1000px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.nuclearb{
+    margin-top: 80px;
+    background-image: url("../imagens/nuclear_background.jpg");
+    background-color: black;
+    height: 850px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.buttoncalc{
+    border: 3px solid darkgreen;
+    width: 100px;
+    height: 70px;
+    background-color: transparent;
+    color: darkgreen;
+}
+.suplementos2{
+    justify-content: space-around;
+    text-align: center;
+    padding-top: 10px;
+}
+.buttoncalc1{
+    border: 3px solid Black;
+    width: 200px;
+    height: 70px;
+    background-color: black;
+    color: white;
+    margin: 5px;
+}
+#contador{
+    display: block;
+    text-align: center;
+    font-size: 10em;
+    font-family: "Helvetica";
+}
+#containerb{
+    text-align: center;
+}
+.contab{
+    padding: 10px 20px;
+    font-size: 1.5em;
+    color: white;
+    background-color: hsl(30, 100%, 70%);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+    width: 150px;
+    height: 70px;
+}
+.contab:hover{
+    background-color: hsl(30, 100%, 40%);
+}
+
+.menualinhar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+.suplementos3{
+    padding: 30px;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 50px;
+}
+.ep5{
+    display: inline-block;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+.descarregaveis{
+    margin-top: 100px;
+    justify-self: center;
+}
+.fundodesca{
+    background-image: url("../imagens/Descarregaveis_bk.webp");
+    background-color: black;
+    height: 850px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+@media screen and (max-width: 768px){
+      .suplementos3{
+          padding: 30px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+      }
+    .ep5{
+        padding-top: 35px;
+    }
+    .responsivo1{
+        text-align: justify;
+    }
+    .responsivo2{
+        padding-right: 20px;
+    }
+    .alinhab{
+        margin-left: 70px;
+    }
+    .gostar1{
+        margin-left: 10px;
+    }
+    .configura1{
+        justify-content: center;
+        width: 600px;
+        height: 600px;
+        text-align: center;
+    }
+    .form-control{
+        width: 230px;
+    }
+    .buttoncalc1{
+        width: 80px;
+        height: 40px;
+    }
+    .muda{
+        width: 230px;
+        height: 60px;
+    }
+    .ep6{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+    section.bcforca{
+        padding-top: 200px;
+    }
+    .jogomoedas{
+       text-align: center;
+        width: 650px;
+        height: 650px;
+        align-items: center;
+        justify-content: center;
+        padding-left: 26px;
+    }
+    .mosca{
+        justify-self: center;
+    }
+    .nuclearb{
+        margin-top: 55px;
+    }
+    .pres1{
+        margin-top: 55px;
+    }
+    .pres2{
+        margin-top: 55px;
+    }
+    .pres3{
+        margin-top: 55px;
+    }
+    .pres4{
+        margin-top: 55px;
+    }
+    .pres5{
+        margin-top: 55px;
+    }
+    .pres6{
+        margin-top: 55px;
+    }
+    .pres7{
+        margin-top: 55px;
+    }
+    .pres8{
+        margin-top: 55px;
+    }
+    .pres9{
+        margin-top: 55px;
+    }
+    .pres10{
+        margin-top: 85px;
+    }
+    .descarregaveis{
+        margin-top: 55px;
+    }
+    .pres11{
+        margin-top: 55px;
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+    }
+    .pres13{
+        margin-top: 55px;
+        height: 470px;
+    }
+    .bcalculadora {
+        margin-top: 55px;
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+    }
+    .bdinheiro {
+        margin-top: 55px;
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+    }
+    .jdados {
+        margin-top: 55px;
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+    }
+
+}
+
+@media (max-width: 1200px) {
+    .bcalculadora {
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+    }
+
+    .jdados {
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+    }
+    .bdinheiro{
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+    }
+    .nuclearb{
+        margin-top: 20px;
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+    }
+}
+.floja {
+    background: linear-gradient(135deg, #002f6c, #005bb5, #0078d7, #f0c419, #ffd700);
+    background-size: 200% 200%;
+    animation: vaultTecShift 8s ease infinite;
+}
+
+@keyframes vaultTecShift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}

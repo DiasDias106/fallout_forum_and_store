@@ -1,0 +1,1357 @@
+{
+  "falloutAPI": {
+    "version": "1.0",
+    "characters": [
+      {
+        "id": 1,
+        "name": "Vault Boy",
+        "role": "Mascot",
+        "description": "Símbolo icônico do universo Fallout, representando as habilidades e vantagens do jogador.",
+        "origin": "Vault-Tec",
+        "special": {
+          "strength": 5,
+          "perception": 5,
+          "endurance": 5,
+          "charisma": 5,
+          "intelligence": 5,
+          "agility": 5,
+          "luck": 5
+        }
+      },
+      {
+        "id": 2,
+        "name": "Dogmeat",
+        "role": "Companheiro",
+        "description": "Um fiel cão companheiro encontrado em várias versões do jogo.",
+        "origin": "Wasteland",
+        "abilities": ["farejar inimigos", "localizar itens", "atacar inimigos"]
+      },
+      {
+        "id": 3,
+        "name": "The Lone Wanderer",
+        "role": "Protagonista",
+        "description": "O personagem principal de Fallout 3, um jovem que deixa o Vault 101 para encontrar seu pai.",
+        "origin": "Vault 101",
+        "special": {
+          "strength": 5,
+          "perception": 5,
+          "endurance": 5,
+          "charisma": 5,
+          "intelligence": 5,
+          "agility": 5,
+          "luck": 5
+        }
+      },
+      {
+        "id": 4,
+        "name": "The Courier",
+        "role": "Protagonista",
+        "description": "O personagem principal de Fallout: New Vegas, um mensageiro que sobrevive a uma tentativa de assassinato.",
+        "origin": "Mojave Wasteland",
+        "special": {
+          "strength": 5,
+          "perception": 5,
+          "endurance": 5,
+          "charisma": 5,
+          "intelligence": 5,
+          "agility": 5,
+          "luck": 5
+        }
+      },
+      {
+        "id": 5,
+        "name": "Mr. House",
+        "role": "Antagonista/Possível Aliado",
+        "description": "O magnata responsável pela revitalização de The Strip em New Vegas.",
+        "origin": "Las Vegas",
+        "abilities": ["Planejamento estratégico", "Controle de robôs securitrons", "Liderança"]
+      },
+      {
+        "id": 6,
+        "name": "Hancock",
+        "role": "Companheiro",
+        "description": "O carismático líder de Goodneighbor, conhecido por seu comportamento relaxado e postura justa.",
+        "origin": "Goodneighbor",
+        "special": {
+          "strength": 3,
+          "perception": 5,
+          "endurance": 6,
+          "charisma": 7,
+          "intelligence": 5,
+          "agility": 6,
+          "luck": 4
+        }
+      },
+      {
+        "id": 7,
+        "name": "Piper Wright",
+        "role": "Companheira",
+        "description": "Uma jornalista ousada da Commonwealth, que busca a verdade acima de tudo.",
+        "origin": "Diamond City",
+        "abilities": ["Persuasão", "Investigação", "Habilidades de combate moderadas"]
+      },
+      {
+        "id": 8,
+        "name": "Nick Valentine",
+        "role": "Companheiro",
+        "description": "Um detetive synth com personalidade charmosa e ética irrepreensível.",
+        "origin": "Diamond City",
+        "abilities": ["Hacking", "Investigação", "Combate"]
+      },
+      {
+        "id": 9,
+        "name": "Liberty Prime",
+        "role": "Arma de Guerra",
+        "description": "Um enorme robô de batalha criado para lutar contra forças comunistas.",
+        "origin": "Brotherhood of Steel",
+        "abilities": ["Lançar bombas nucleares", "Disparos laser", "Propaganda anti-comunista"]
+      },
+      {
+        "id": 10,
+        "name": "Elder Maxson",
+        "role": "Líder",
+        "description": "O jovem e idealista líder da Brotherhood of Steel em Fallout 4.",
+        "origin": "Brotherhood of Steel",
+        "special": {
+          "strength": 6,
+          "perception": 5,
+          "endurance": 6,
+          "charisma": 7,
+          "intelligence": 6,
+          "agility": 5,
+          "luck": 4
+        }
+      },
+      {
+        "id": 11,
+        "name": "Caesar",
+        "role": "Antagonista/Líder",
+        "description": "O imperioso líder da Legião de César em Fallout: New Vegas.",
+        "origin": "Mojave Wasteland",
+        "abilities": ["Liderança", "Manipulação", "Combate"]
+      },
+      {
+        "id": 12,
+        "name": "Father",
+        "role": "Líder",
+        "description": "O enigmático líder do Instituto em Fallout 4.",
+        "origin": "The Institute",
+        "abilities": ["Planejamento estratégico", "Manipulação", "Avanços tecnológicos"]
+      },
+        {
+          "id": 13,
+          "name": "Raul Tejada",
+          "role": "Companheiro",
+          "description": "Um ghoul mecânico habilidoso e filósofo cínico que vive em Black Mountain.",
+          "origin": "Mojave Wasteland",
+          "special": {
+            "strength": 5,
+            "perception": 6,
+            "endurance": 5,
+            "charisma": 7,
+            "intelligence": 8,
+            "agility": 5,
+            "luck": 6
+          }
+        },
+        {
+          "id": 14,
+          "name": "Arcade Gannon",
+          "role": "Companheiro",
+          "description": "Um cientista brilhante e idealista associado aos Remanescentes da Enclave.",
+          "origin": "Mojave Wasteland",
+          "abilities": ["Medicina avançada", "Ciência avançada"]
+        },
+        {
+          "id": 15,
+          "name": "Veronica Santangelo",
+          "role": "Companheira",
+          "description": "Uma escriba da Brotherhood of Steel interessada em tecnologia e reforma.",
+          "origin": "Hidden Valley",
+          "special": {
+            "strength": 6,
+            "perception": 6,
+            "endurance": 6,
+            "charisma": 7,
+            "intelligence": 8,
+            "agility": 5,
+            "luck": 4
+          }
+        },
+        {
+          "id": 16,
+          "name": "Joshua Graham",
+          "role": "Aliado",
+          "description": "Ex-mão direita de Caesar, agora líder espiritual do New Canaan.",
+          "origin": "Zion Canyon",
+          "abilities": ["Combate", "Estratégia militar"]
+        },
+        {
+          "id": 17,
+          "name": "Boone",
+          "role": "Companheiro",
+          "description": "Um ex-atirador da NCR marcado por traumas pessoais.",
+          "origin": "Mojave Wasteland",
+          "special": {
+            "strength": 6,
+            "perception": 9,
+            "endurance": 5,
+            "charisma": 5,
+            "intelligence": 6,
+            "agility": 7,
+            "luck": 5
+          }
+        },
+        {
+          "id": 18,
+          "name": "Preston Garvey",
+          "role": "Companheiro",
+          "description": "Líder dos Minutemen, dedicado a proteger os colonos da Commonwealth.",
+          "origin": "Commonwealth",
+          "abilities": ["Organização de assentamentos", "Combate"]
+        },
+        {
+          "id": 19,
+          "name": "Strong",
+          "role": "Companheiro",
+          "description": "Um supermutante em busca do 'Milk of Human Kindness'.",
+          "origin": "Trinity Tower",
+          "special": {
+            "strength": 10,
+            "perception": 3,
+            "endurance": 8,
+            "charisma": 3,
+            "intelligence": 2,
+            "agility": 4,
+            "luck": 3
+          }
+        },
+        {
+          "id": 20,
+          "name": "MacCready",
+          "role": "Companheiro",
+          "description": "Um ex-líder de Little Lamplight que se tornou um mercenário habilidoso.",
+          "origin": "Little Lamplight",
+          "abilities": ["Tiro preciso", "Estratégia de combate"]
+        },
+        {
+          "id": 21,
+          "name": "Curie",
+          "role": "Companheira",
+          "description": "Uma robô médica que busca explorar sua humanidade.",
+          "origin": "Vault 81",
+          "abilities": ["Medicina", "Ciência"]
+        },
+        {
+          "id": 22,
+          "name": "X6-88",
+          "role": "Companheiro",
+          "description": "Um Courser frio e eficiente a serviço do Instituto.",
+          "origin": "The Institute",
+          "abilities": ["Hacking", "Combate avançado"]
+        },
+        {
+          "id": 23,
+          "name": "Elder Lyons",
+          "role": "Líder",
+          "description": "O líder progressista da Irmandade do Aço em Fallout 3.",
+          "origin": "Capital Wasteland",
+          "special": {
+            "strength": 5,
+            "perception": 6,
+            "endurance": 6,
+            "charisma": 8,
+            "intelligence": 9,
+            "agility": 5,
+            "luck": 4
+          }
+        },
+        {
+          "id": 24,
+          "name": "Clover",
+          "role": "Mercenária",
+          "description": "Uma escrava armada e leal ao jogador, vendida em Paradise Falls.",
+          "origin": "Capital Wasteland",
+          "abilities": ["Combate"]
+        },
+        {
+          "id": 25,
+          "name": "Mothership Zeta Alien Captain",
+          "role": "Antagonista",
+          "description": "O comandante da nave alienígena em Fallout 3.",
+          "origin": "Mothership Zeta",
+          "abilities": ["Tecnologia alienígena avançada", "Combate"]
+        },
+        {
+          "id": 26,
+          "name": "Father Elijah",
+          "role": "Antagonista",
+          "description": "Um ex-membro da Irmandade do Aço, obcecado por tecnologia antiga.",
+          "origin": "Sierra Madre",
+          "abilities": ["Ciência", "Estratégia militar"]
+        },
+        {
+          "id": 27,
+          "name": "Lily Bowen",
+          "role": "Companheira",
+          "description": "Uma supermutante idosa com traumas emocionais.",
+          "origin": "Jacobstown",
+          "special": {
+            "strength": 9,
+            "perception": 6,
+            "endurance": 8,
+            "charisma": 4,
+            "intelligence": 4,
+            "agility": 6,
+            "luck": 5
+          }
+        },
+        {
+          "id": 28,
+          "name": "Sierra Petrovita",
+          "role": "Colecionadora de Nuka-Cola",
+          "description": "Uma obcecada por Nuka-Cola que guia o jogador em uma missão única.",
+          "origin": "Girdershade",
+          "abilities": ["Conhecimento sobre Nuka-Cola"]
+        },
+        {
+          "id": 29,
+          "name": "Deacon",
+          "role": "Companheiro",
+          "description": "Um espião da Railroad especialista em disfarces e manipulação.",
+          "origin": "Railroad",
+          "abilities": ["Espionagem", "Persuasão"]
+        },
+        {
+          "id": 30,
+          "name": "Graham",
+          "role": "Líder espiritual",
+          "description": "Um sobrevivente marcado por fogo que lidera seu povo com sabedoria e força.",
+          "origin": "Zion Canyon",
+          "abilities": ["Oratória", "Liderança"]
+        },
+        {
+          "id": 31,
+          "name": "Kellogg",
+          "role": "Antagonista",
+          "description": "Um mercenário cruel e implacável que trabalha para o Instituto.",
+          "origin": "The Institute",
+          "abilities": ["Combate", "Manipulação"]
+        },
+        {
+          "id": 32,
+          "name": "Colonel Autumn",
+          "role": "Antagonista",
+          "description": "Um comandante autoritário da Enclave.",
+          "origin": "Raven Rock",
+          "abilities": [
+            "Estratégia militar"
+          ]
+        },
+        {
+          "id": 33,
+          "name": "Rose of Sharon Cassidy",
+          "role": "Companheira",
+          "description": "Uma comerciante carismática e independente, dona da Cassidy Caravans.",
+          "origin": "Mojave Wasteland",
+          "special": {
+            "strength": 5,
+            "perception": 6,
+            "endurance": 5,
+            "charisma": 7,
+            "intelligence": 5,
+            "agility": 6,
+            "luck": 6
+          }
+        },
+        {
+          "id": 34,
+          "name": "Elder McNamara",
+          "role": "Líder",
+          "description": "O líder conservador da Brotherhood of Steel em Hidden Valley.",
+          "origin": "Hidden Valley",
+          "abilities": ["Liderança", "Conhecimento em tecnologia"]
+        },
+        {
+          "id": 35,
+          "name": "Yes Man",
+          "role": "Aliado",
+          "description": "Um programa de IA amigável e submisso que auxilia o jogador em Fallout: New Vegas.",
+          "origin": "Lucky 38",
+          "abilities": ["Hacking", "Coordenação logística"]
+        },
+        {
+          "id": 36,
+          "name": "Three Dog",
+          "role": "DJ",
+          "description": "O animado radialista da Galaxy News Radio em Fallout 3.",
+          "origin": "Capital Wasteland",
+          "abilities": ["Oratória", "Inspirar rebeldes"]
+        },
+        {
+          "id": 37,
+          "name": "Moira Brown",
+          "role": "Comerciante",
+          "description": "A excêntrica comerciante e autora do *Wasteland Survival Guide*.",
+          "origin": "Megaton",
+          "abilities": ["Ciência", "Construção"]
+        },
+        {
+          "id": 38,
+          "name": "Red",
+          "role": "Médica",
+          "description": "Uma médica prisioneira de supermutantes resgatada em Big Town.",
+          "origin": "Big Town",
+          "abilities": ["Medicina"]
+        },
+        {
+          "id": 39,
+          "name": "Dr. Li",
+          "role": "Cientista",
+          "description": "Uma cientista-chave do Projeto Pureza e ex-membro do Instituto.",
+          "origin": "The Institute",
+          "abilities": ["Ciência avançada"]
+        },
+        {
+          "id": 40,
+          "name": "Paladin Danse",
+          "role": "Companheiro",
+          "description": "Um paladino leal da Brotherhood of Steel com um segredo inesperado.",
+          "origin": "Boston",
+          "special": {
+            "strength": 8,
+            "perception": 6,
+            "endurance": 7,
+            "charisma": 4,
+            "intelligence": 6,
+            "agility": 5,
+            "luck": 4
+          }
+        },
+        {
+          "id": 41,
+          "name": "Stanley",
+          "role": "Engenheiro",
+          "description": "Um engenheiro amigável do Vault 101.",
+          "origin": "Vault 101",
+          "abilities": ["Manutenção de equipamentos"]
+        },
+        {
+          "id": 42,
+          "name": "Eulogy Jones",
+          "role": "Comerciante de escravos",
+          "description": "O cruel líder dos comerciantes de escravos em Paradise Falls.",
+          "origin": "Capital Wasteland",
+          "abilities": ["Persuasão", "Liderança em rede ilegal"]
+        },
+        {
+          "id": 43,
+          "name": "Sarah Lyons",
+          "role": "Soldada",
+          "description": "Filha de Elder Lyons e comandante dos Leões da Irmandade.",
+          "origin": "Capital Wasteland",
+          "special": {
+            "strength": 6,
+            "perception": 6,
+            "endurance": 7,
+            "charisma": 7,
+            "intelligence": 8,
+            "agility": 6,
+            "luck": 5
+          }
+        },
+        {
+          "id": 44,
+          "name": "Benny",
+          "role": "Antagonista",
+          "description": "Um gângster traiçoeiro que tenta controlar New Vegas.",
+          "origin": "The Tops Casino",
+          "abilities": ["Manipulação", "Combate"]
+        },
+        {
+          "id": 45,
+          "name": "Elder Arthur Maxson",
+          "role": "Líder",
+          "description": "O carismático líder da Irmandade em Fallout 4.",
+          "origin": "Boston",
+          "abilities": ["Liderança", "Estratégia militar"]
+        },
+        {
+          "id": 46,
+          "name": "Lorenzo Cabot",
+          "role": "Antagonista",
+          "description": "Um homem com poderes anômalos devido a um artefato alienígena.",
+          "origin": "Parsons State Insane Asylum",
+          "abilities": ["Manipulação psíquica"]
+        },
+        {
+          "id": 47,
+          "name": "Codsworth",
+          "role": "Companheiro",
+          "description": "Um robô doméstico leal com habilidades de combate e assistência.",
+          "origin": "Sanctuary Hills",
+          "abilities": ["Combate", "Assistência doméstica"]
+        },
+        {
+          "id": 48,
+          "name": "Charon",
+          "role": "Mercenário",
+          "description": "Um ghoul letal e silencioso que segue ordens à risca.",
+          "origin": "Underworld",
+          "abilities": ["Combate corpo a corpo", "Discrição"]
+        },
+        {
+          "id": 49,
+          "name": "Desdemona",
+          "role": "Líder",
+          "description": "A líder dedicada da Railroad, focada em libertar synths.",
+          "origin": "The Railroad",
+          "abilities": ["Liderança", "Estratégia"]
+        },
+        {
+          "id": 50,
+          "name": "Elder Thelda",
+          "role": "Curandeira",
+          "description": "Uma anciã conhecida por habilidades curativas em Vault City.",
+          "origin": "Vault City",
+          "abilities": ["Medicina", "Herbologia"]
+        }
+
+    ],
+
+    "locations": [
+      {
+        "id": 1,
+        "name": "Vault 101",
+        "description": "Um vault subterrâneo criado pela Vault-Tec para proteger os moradores da guerra nuclear.",
+        "region": "Capital Wasteland",
+        "inhabitants": ["Moradores do Vault", "Overseer"],
+        "factions": ["Vault-Tec"]
+      },
+      {
+        "id": 2,
+        "name": "Diamond City",
+        "description": "Uma cidade movimentada construída dentro do estádio de baseball Fenway Park.",
+        "region": "Commonwealth",
+        "inhabitants": ["Mercadores", "Cidadãos", "Guards"],
+        "factions": ["Minutemen"]
+      },
+      {
+        "id": 3,
+        "name": "Megaton",
+        "description": "Uma cidade construída ao redor de uma bomba nuclear não detonada.",
+        "region": "Capital Wasteland",
+        "inhabitants": ["Lucas Simms", "Gob", "Moirra Brown"],
+        "factions": ["Cidadãos Locais"]
+      },
+      {
+        "id": 4,
+        "name": "Rivet City",
+        "description": "Uma cidade flutuante localizada em um porta-aviões abandonado.",
+        "region": "Capital Wasteland",
+        "inhabitants": ["Dr. Li", "Harkness", "Bannon"],
+        "factions": ["Cidadãos de Rivet City"]
+      },
+      {
+        "id": 5,
+        "name": "Goodneighbor",
+        "description": "Uma comunidade onde todos são aceitos, incluindo ghouls e refugiados.",
+        "region": "Commonwealth",
+        "inhabitants": ["Hancock", "Daisy", "Cleópatra"],
+        "factions": ["Cidadãos de Goodneighbor"]
+      },
+      {
+        "id": 6,
+        "name": "The Strip",
+        "description": "O coração de New Vegas, um distrito de cassinos brilhantes e decadência.",
+        "region": "Mojave Wasteland",
+        "inhabitants": ["Sr. House", "Benny", "Cassinos"],
+        "factions": ["The Chairmen", "Omertas", "White Glove Society"]
+      },
+      {
+        "id": 7,
+        "name": "Freeside",
+        "description": "Uma área fora de The Strip, conhecida por suas ruas perigosas e disputas entre gangues.",
+        "region": "Mojave Wasteland",
+        "inhabitants": ["Rei", "Rotface", "Old Ben"],
+        "factions": ["The Kings"]
+      },
+      {
+        "id": 8,
+        "name": "Boulder City",
+        "description": "Uma cidade devastada pela guerra entre a NCR e a Legião de César.",
+        "region": "Mojave Wasteland",
+        "inhabitants": ["Soldados NCR", "Moradores"],
+        "factions": ["NCR"]
+      },
+      {
+        "id": 9,
+        "name": "Shady Sands",
+        "description": "A capital da New California Republic, um símbolo de reconstrução.",
+        "region": "Core Region",
+        "inhabitants": ["Tandi", "Aradesh"],
+        "factions": ["NCR"]
+      },
+      {
+        "id": 10,
+        "name": "Junktown",
+        "description": "Uma cidade fundada em um ferro-velho, conhecida por sua economia baseada em sucata.",
+        "region": "Core Region",
+        "inhabitants": ["Killian Darkwater", "Doc Morbid"],
+        "factions": ["Cidadãos de Junktown"]
+      },
+      {
+        "id": 11,
+        "name": "Necropolis",
+        "description": "Uma cidade ocupada principalmente por ghouls, resultado de radiação extrema.",
+        "region": "Core Region",
+        "inhabitants": ["Ghouls"],
+        "factions": ["Ghouls Selvagens"]
+      },
+      {
+        "id": 12,
+        "name": "San Francisco",
+        "description": "Uma cidade que serve como ponto de encontro para várias facções, incluindo os Shi.",
+        "region": "Core Region",
+        "inhabitants": ["Shi", "Redes de Drogas Locais"],
+        "factions": ["Shi", "Brotherhood of Steel"]
+      },
+      {
+        "id": 13,
+        "name": "Arroyo",
+        "description": "Uma pequena vila fundada pelo Vault Dweller original.",
+        "region": "Northern California",
+        "inhabitants": ["Chieftain", "Moradores"],
+        "factions": ["Cidadãos de Arroyo"]
+      },
+      {
+        "id": 14,
+        "name": "New Reno",
+        "description": "Conhecida como a cidade do pecado no deserto, cheia de gangues e casinos.",
+        "region": "Northern Nevada",
+        "inhabitants": ["Família Mordino", "Família Wright", "Família Bishop"],
+        "factions": ["New Reno Families"]
+      },
+      {
+        "id": 15,
+        "name": "Big MT (Big Mountain)",
+        "description": "Uma instalação científica abandonada repleta de experimentos malucos.",
+        "region": "Mojave Wasteland",
+        "inhabitants": ["Think Tank", "Robo-escorpiões"],
+        "factions": ["Cientistas Think Tank"]
+      },
+      {
+        "id": 16,
+        "name": "Nuka-World",
+        "description": "Um parque de diversões abandonado que foi tomado por facções hostis.",
+        "region": "Commonwealth",
+        "inhabitants": ["Raiders", "Nuka-World Gang Leaders"],
+        "factions": ["Raiders de Nuka-World"]
+      },
+      {
+        "id": 17,
+        "name": "The Capital Wasteland",
+        "description": "A vasta região ao redor de Washington D.C., marcada por ruínas e perigos.",
+        "region": "Capital Wasteland",
+        "inhabitants": ["Sobreviventes", "Mutantes"],
+        "factions": ["Cidadãos locais"]
+      },
+      {
+        "id": 18,
+        "name": "Black Mountain",
+        "description": "Uma antiga estação de rádio, agora habitada por supermutantes.",
+        "region": "Mojave Wasteland",
+        "inhabitants": ["Supermutantes", "Tabitha"],
+        "factions": ["Supermutantes de Black Mountain"]
+      },
+      {
+        "id": 19,
+        "name": "Repconn Test Site",
+        "description": "Um local de testes de foguetes que se tornou um refúgio para ghouls.",
+        "region": "Mojave Wasteland",
+        "inhabitants": ["Ghouls", "Repconn Scientists"],
+        "factions": ["Ghouls Reclusos"]
+      },
+      {
+        "id": 20,
+        "name": "The Pitt",
+        "description": "Uma cidade industrial devastada e controlada por raiders.",
+        "region": "Appalachia",
+        "inhabitants": ["Slaves", "Raiders"],
+        "factions": ["Raiders de The Pitt"]
+      },
+      {
+        "id": 21,
+        "name": "Vault 108",
+        "description": "Um vault habitado por clones do Dr. Lesko, com uma experiência de controle mental falha.",
+        "region": "Capital Wasteland",
+        "inhabitants": ["Clones", "Dr. Lesko"],
+        "factions": ["Vault-Tec"]
+      },
+      {
+        "id": 22,
+        "name": "Fortification Hill",
+        "description": "Uma montanha estratégica controlada pela Legião de César.",
+        "region": "Mojave Wasteland",
+        "inhabitants": ["Legionários", "César"],
+        "factions": ["Legião de César"]
+      },
+      {
+        "id": 23,
+        "name": "The Commonwealth Institute of Technology",
+        "description": "Um antigo instituto de pesquisa que contém segredos e robôs hostis.",
+        "region": "Commonwealth",
+        "inhabitants": ["Assaultrons", "Protectrons"],
+        "factions": ["Institute"]
+      },
+      {
+        "id": 24,
+        "name": "C.A.M.P.",
+        "description": "Áreas de sobrevivência construídas por jogadores, agora conhecidas por suas construções de abrigos improvisados.",
+        "region": "Various",
+        "inhabitants": ["Sobreviventes", "Jogadores"],
+        "factions": ["Cidadãos locais"]
+      },
+      {
+        "id": 25,
+        "name": "Sierra Madre",
+        "description": "Um cassino que esconde muitos segredos e uma cidade fantasma cheia de riquezas e perigos.",
+        "region": "Mojave Wasteland",
+        "inhabitants": ["The Ghost People", "Elijah"],
+        "factions": ["The Sierra Madre"]
+      },
+      {
+        "id": 26,
+        "name": "Little Lamplight",
+        "description": "Uma cidade formada e governada por crianças, com pouca interação com adultos.",
+        "region": "Capital Wasteland",
+        "inhabitants": ["Crianças", "Mole Rat"],
+        "factions": ["Cidadãos de Little Lamplight"]
+      },
+      {
+        "id": 27,
+        "name": "The Institute",
+        "description": "Uma organização científica secreta responsável por criar androides e manipular genética.",
+        "region": "Commonwealth",
+        "inhabitants": ["Synths", "Dr. Virgil"],
+        "factions": ["Institute"]
+      },
+      {
+        "id": 28,
+        "name": "Rochester",
+        "description": "Uma cidade que caiu sob o controle de raiders e infestada por radiação.",
+        "region": "Appalachia",
+        "inhabitants": ["Raiders", "Sobreviventes"],
+        "factions": ["Raiders de Rochester"]
+      },
+      {
+        "id": 29,
+        "name": "The Mojave Outpost",
+        "description": "A principal base de operações da NCR no deserto Mojave.",
+        "region": "Mojave Wasteland",
+        "inhabitants": ["NCR Troopers", "Rangers"],
+        "factions": ["New California Republic"]
+      },
+      {
+        "id": 30,
+        "name": "The Great Divide",
+        "description": "Uma região devastada pelo conflito, com desfiladeiros perigosos e raiders armados.",
+        "region": "Mojave Wasteland",
+        "inhabitants": ["Raiders", "Civis Mortos"],
+        "factions": ["Raiders do Grande Divide"]
+      },
+      {
+        "id": 31,
+        "name": "Fort 80",
+        "description": "Uma instalação militar construída para proteger os sobreviventes, agora infestada por mutantes.",
+        "region": "Capital Wasteland",
+        "inhabitants": ["Supermutantes", "Ghouls"],
+        "factions": ["Cidadãos de Fort 80"]
+      },
+      {
+        "id": 32,
+        "name": "The Brotherhood Bunker",
+        "description": "Uma base secreta da Irmandade do Ferro, cheia de tecnologia avançada e soldados bem treinados.",
+        "region": "Commonwealth",
+        "inhabitants": ["Paladin Danse", "Brotherhood Soldiers"],
+        "factions": ["Brotherhood of Steel"]
+      },
+      {
+        "id": 33,
+        "name": "Mount Charleston",
+        "description": "Uma montanha isolada no deserto que guarda segredos e um passado sombrio.",
+        "region": "Mojave Wasteland",
+        "inhabitants": ["Desert Rangers", "Exploradores"],
+        "factions": ["Rangers de Mount Charleston"]
+      },
+      {
+        "id": 34,
+        "name": "Bison Steve Hotel",
+        "description": "Um antigo hotel em ruínas, agora ocupado por gangues e saqueadores.",
+        "region": "Mojave Wasteland",
+        "inhabitants": ["Raider Gang", "Saqueadores"],
+        "factions": ["Gangues do Bison Steve"]
+      },
+      {
+        "id": 35,
+        "name": "Echo Lake",
+        "description": "Um pequeno lago que esconde mistérios, com uma cidade vizinha marcada por experiências químicas.",
+        "region": "Northern Nevada",
+        "inhabitants": ["Cientistas Locais", "Radscorpions"],
+        "factions": ["Cientistas de Echo Lake"]
+      },
+      {
+        "id": 36,
+        "name": "Vault 11",
+        "description": "Um vault com uma história sombria, onde os moradores foram forçados a cometer sacrifícios humanos para evitar a destruição.",
+        "region": "Mojave Wasteland",
+        "inhabitants": ["Vault Dwellers", "Security Guards"],
+        "factions": ["Vault-Tec"]
+      },
+      {
+        "id": 37,
+        "name": "Lonesome Road",
+        "description": "Uma estrada isolada marcada por ruínas e antigos conflitos, onde segredos do passado são revelados.",
+        "region": "Mojave Wasteland",
+        "inhabitants": ["Survivors", "Radscorpions"],
+        "factions": ["Courier", "The Divide"]
+      },
+      {
+        "id": 38,
+        "name": "Quincy",
+        "description": "Uma cidade que foi destruída após um ataque da facção Raiders, agora um ponto de caça para saqueadores.",
+        "region": "Commonwealth",
+        "inhabitants": ["Raiders", "Survivors"],
+        "factions": ["Raiders de Quincy"]
+      },
+      {
+        "id": 39,
+        "name": "The Sink",
+        "description": "Uma instalação de manutenção, abandonada mas equipada com tecnologia avançada para limpar e manter a segurança.",
+        "region": "Big MT",
+        "inhabitants": ["Sinks", "Mister Hands"],
+        "factions": ["Cientistas de Big MT"]
+      },
+      {
+        "id": 40,
+        "name": "Jacobstown",
+        "description": "Uma comunidade de ghouls e supermutantes que buscam um refúgio longe dos conflitos.",
+        "region": "Mojave Wasteland",
+        "inhabitants": ["Supermutantes", "Ghouls"],
+        "factions": ["Jacobstown"]
+      },
+      {
+        "id": 41,
+        "name": "The Strip (Old World Blues)",
+        "description": "A antiga zona de cassinos de New Vegas antes de sua decadência total, repleta de história e aventuras.",
+        "region": "Mojave Wasteland",
+        "inhabitants": ["Casino Workers", "Securitron"],
+        "factions": ["The Chairmen", "Omertas"]
+      },
+      {
+        "id": 42,
+        "name": "Pittsburgh",
+        "description": "Uma cidade devastada pela guerra, onde a Steel Brotherhood se esconde, lutando contra a Legião de César.",
+        "region": "Appalachia",
+        "inhabitants": ["Supermutantes", "Steel Brotherhood"],
+        "factions": ["Steel Brotherhood", "Legião de César"]
+      },
+      {
+        "id": 43,
+        "name": "The Gator Claws Lair",
+        "description": "Uma caverna escondida no pântano, infestada por criaturas reptilianas mutantes chamadas Gator Claws.",
+        "region": "Commonwealth",
+        "inhabitants": ["Gator Claws", "Survivors"],
+        "factions": ["Monstros da Caverna"]
+      },
+      {
+        "id": 44,
+        "name": "Mount Rushmore",
+        "description": "O famoso monumento transformado em uma fortaleza pela NCR, protegendo a região das forças inimigas.",
+        "region": "Northern States",
+        "inhabitants": ["NCR Troopers", "Mutantes"],
+        "factions": ["New California Republic"]
+      },
+      {
+        "id": 45,
+        "name": "Vault 22",
+        "description": "Um vault onde experimentos biológicos resultaram em um desastre, liberando criaturas mutantes e plantas carnívoras.",
+        "region": "Mojave Wasteland",
+        "inhabitants": ["Vault Dwellers", "Ghouls"],
+        "factions": ["Vault-Tec"]
+      },
+      {
+        "id": 46,
+        "name": "The Mojave Dry Lake",
+        "description": "Uma vasta planície de deserto, um local isolado que foi palco de batalhas antigas e agora é um ponto de passagem perigoso.",
+        "region": "Mojave Wasteland",
+        "inhabitants": ["Scorpions", "Raiders"],
+        "factions": ["Cidadãos locais"]
+      },
+      {
+        "id": 47,
+        "name": "The Nellis Air Force Base",
+        "description": "Uma base militar agora controlada pelos Boomers, um grupo de sobreviventes que usa a tecnologia militar antiga.",
+        "region": "Mojave Wasteland",
+        "inhabitants": ["Boomers", "Pilots"],
+        "factions": ["Boomers"]
+      },
+      {
+        "id": 48,
+        "name": "Tartarus",
+        "description": "Uma prisão abandonada e cheia de ex-condenados mutantes e radiação, onde poucos se atrevem a entrar.",
+        "region": "Mojave Wasteland",
+        "inhabitants": ["Prisoners", "Mutants"],
+        "factions": ["Ex-prisioneiros"]
+      },
+      {
+        "id": 49,
+        "name": "Twilight Ridge",
+        "description": "Uma região montanhosa cheia de cavernas e ruínas, que abriga tribos hostis e antigos mistérios.",
+        "region": "Mojave Wasteland",
+        "inhabitants": ["Raiders", "Tribes"],
+        "factions": ["Raiders de Twilight"]
+      },
+      {
+        "id": 50,
+        "name": "The Crater",
+        "description": "Uma vasta cratera criada por um bombardeio nuclear, agora um refúgio para mutantes e radscorpions.",
+        "region": "Mojave Wasteland",
+        "inhabitants": ["Mutantes", "Radscorpions"],
+        "factions": ["Mutantes da Cratera"]
+      }
+    ],
+
+    "items": [
+      {
+        "id": 1,
+        "name": "Pip-Boy 3000",
+        "type": "Equipamento",
+        "description": "Um computador portátil usado pelos moradores do Vault para navegar e acessar informações.",
+        "rarity": "Comum",
+        "uses": ["Interface do jogador", "Mapas", "Rádio"]
+      },
+      {
+        "id": 2,
+        "name": "Fat Man",
+        "type": "Arma",
+        "description": "Um lançador portátil de ogivas nucleares em miniatura.",
+        "rarity": "Raro",
+        "damage": 750,
+        "ammoType": "Mini Nuke"
+      },
+      {
+        "id": 3,
+        "name": "Power Armor",
+        "type": "Armadura",
+        "description": "Uma poderosa armadura mecânica que oferece proteção superior contra danos e radiação.",
+        "rarity": "Raro",
+        "uses": ["Proteção avançada", "Aumento de força", "Resistência à radiação"]
+      },
+      {
+        "id": 4,
+        "name": "Alien Blaster",
+        "type": "Arma",
+        "description": "Uma arma extraterrestre extremamente poderosa e difícil de encontrar.",
+        "rarity": "Único",
+        "damage": 75,
+        "ammoType": "Alien Power Cell"
+      },
+      {
+        "id": 5,
+        "name": "Stealth Boy",
+        "type": "Dispositivo",
+        "description": "Um dispositivo portátil que permite ao usuário ficar temporariamente invisível.",
+        "rarity": "Incomum",
+        "uses": ["Invisibilidade temporária", "Furtividade"]
+      },
+      {
+        "id": 6,
+        "name": "Nuka-Cola Quantum",
+        "type": "Consumível",
+        "description": "Uma variante rara do famoso refrigerante Nuka-Cola, que restaura energia e causa efeitos especiais.",
+        "rarity": "Raro",
+        "uses": ["Restaurar HP", "Aumentar energia temporariamente"]
+      },
+      {
+        "id": 7,
+        "name": "G.E.C.K. (Garden of Eden Creation Kit)",
+        "type": "Dispositivo",
+        "description": "Um dispositivo avançado criado pela Vault-Tec para reconstruir ecossistemas após a guerra nuclear.",
+        "rarity": "Único",
+        "uses": ["Revivificação do ecossistema", "Construção de assentamentos"]
+      },
+      {
+        "id": 8,
+        "name": "Laser Rifle",
+        "type": "Arma",
+        "description": "Uma arma de energia popular entre os habitantes do Wasteland.",
+        "rarity": "Comum",
+        "damage": 35,
+        "ammoType": "Microfusion Cell"
+      },
+      {
+        "id": 9,
+        "name": "Plasma Rifle",
+        "type": "Arma",
+        "description": "Uma arma avançada que dispara projéteis de plasma altamente energéticos.",
+        "rarity": "Incomum",
+        "damage": 45,
+        "ammoType": "Microfusion Cell"
+      },
+      {
+        "id": 10,
+        "name": "Mini Nuke",
+        "type": "Munição",
+        "description": "Ogivas nucleares em miniatura usadas como munição para o Fat Man.",
+        "rarity": "Raro",
+        "uses": ["Munição para Fat Man", "Explosões devastadoras"]
+      },
+      {
+        "id": 11,
+        "name": "Bobblehead",
+        "type": "Colecionável",
+        "description": "Estatuetas colecionáveis que aumentam permanentemente uma habilidade ou atributo do jogador.",
+        "rarity": "Único",
+        "uses": ["Aumentar atributos", "Decoração"]
+      },
+      {
+        "id": 12,
+        "name": "Cryolator",
+        "type": "Arma",
+        "description": "Uma arma experimental que dispara projéteis de gelo.",
+        "rarity": "Único",
+        "damage": 40,
+        "ammoType": "Cryo Cell"
+      },
+      {
+        "id": 13,
+        "name": "RadAway",
+        "type": "Consumível",
+        "description": "Um medicamento que reduz os níveis de radiação no corpo do usuário.",
+        "rarity": "Comum",
+        "uses": ["Reduzir radiação", "Restaurar saúde"]
+      },
+      {
+        "id": 14,
+        "name": "Rad-X",
+        "type": "Consumível",
+        "description": "Uma droga que aumenta a resistência à radiação temporariamente.",
+        "rarity": "Comum",
+        "uses": ["Resistência à radiação temporária"]
+      },
+        {
+          "id": 15,
+          "name": "Pulse Grenade",
+          "type": "Explosivo",
+          "description": "Uma granada projetada para desativar robôs e armaduras de energia.",
+          "rarity": "Incomum",
+          "damage": 150,
+          "uses": ["Desativar robôs", "Dano contra armaduras de energia"]
+        },
+        {
+          "id": 16,
+          "name": "Bottlecap Mine",
+          "type": "Explosivo",
+          "description": "Uma mina artesanal que utiliza tampas de garrafa para aumentar o impacto da explosão.",
+          "rarity": "Raro",
+          "damage": 250,
+          "uses": ["Armadilhas", "Explosões de grande alcance"]
+        },
+        {
+          "id": 17,
+          "name": "Shishkebab",
+          "type": "Arma Corpo-a-Corpo",
+          "description": "Uma espada modificada que emite chamas para causar dano adicional.",
+          "rarity": "Raro",
+          "damage": 45,
+          "uses": ["Combate corpo-a-corpo", "Queimar inimigos"]
+        },
+        {
+          "id": 18,
+          "name": "Railway Rifle",
+          "type": "Arma",
+          "description": "Uma arma improvisada que dispara pregos de trilho com incrível força.",
+          "rarity": "Incomum",
+          "damage": 75,
+          "ammoType": "Rail Spike",
+          "uses": ["Projéteis improvisados", "Dano a inimigos blindados"]
+        },
+        {
+          "id": 19,
+          "name": "Tesla Cannon",
+          "type": "Arma de Energia",
+          "description": "Um canhão de energia que dispara raios de eletricidade concentrada.",
+          "rarity": "Único",
+          "damage": 120,
+          "ammoType": "Electron Charge Pack"
+        },
+        {
+          "id": 20,
+          "name": "Holotape",
+          "type": "Colecionável",
+          "description": "Discos de áudio e vídeo usados para armazenar dados importantes ou mensagens.",
+          "rarity": "Comum",
+          "uses": ["História do jogo", "Informações importantes"]
+        },
+        {
+          "id": 21,
+          "name": "Plasma Grenade",
+          "type": "Explosivo",
+          "description": "Uma granada avançada que explode em uma rajada de energia de plasma.",
+          "rarity": "Incomum",
+          "damage": 200,
+          "uses": ["Explosões de plasma", "Dano em larga escala"]
+        },
+        {
+          "id": 22,
+          "name": "Combat Shotgun",
+          "type": "Arma",
+          "description": "Uma espingarda de combate eficiente para combates de curta distância.",
+          "rarity": "Comum",
+          "damage": 65,
+          "ammoType": "12 Gauge Shell"
+        },
+        {
+          "id": 23,
+          "name": "Nuka-World Ticket",
+          "type": "Colecionável",
+          "description": "Um bilhete antigo para o parque de diversões Nuka-World.",
+          "rarity": "Raro",
+          "uses": ["Acessar o parque", "Item de coleção"]
+        },
+        {
+          "id": 24,
+          "name": "Fusion Core",
+          "type": "Consumível",
+          "description": "Uma unidade de energia necessária para operar armaduras de energia.",
+          "rarity": "Incomum",
+          "uses": ["Operar Power Armors", "Gerar energia"]
+        },
+        {
+          "id": 25,
+          "name": "Gauss Rifle",
+          "type": "Arma",
+          "description": "Uma arma de precisão que usa eletromagnetismo para disparar projéteis com extrema força.",
+          "rarity": "Raro",
+          "damage": 110,
+          "ammoType": "2mm EC"
+        },
+        {
+          "id": 26,
+          "name": "Super Sledge",
+          "type": "Arma Corpo-a-Corpo",
+          "description": "Um martelo pesado equipado com propulsor para causar golpes devastadores.",
+          "rarity": "Raro",
+          "damage": 80,
+          "uses": ["Combate corpo-a-corpo", "Dano devastador"]
+        },
+        {
+          "id": 27,
+          "name": "Doctor's Bag",
+          "type": "Consumível",
+          "description": "Um kit médico que restaura membros mutilados e reduz os efeitos de radiação.",
+          "rarity": "Incomum",
+          "uses": ["Restaurar saúde", "Tratar membros feridos"]
+        },
+        {
+          "id": 28,
+          "name": "Flamer",
+          "type": "Arma",
+          "description": "Um lança-chamas que dispara rajadas de fogo para causar dano contínuo.",
+          "rarity": "Incomum",
+          "damage": 40,
+          "ammoType": "Flamer Fuel",
+          "uses": ["Ataques incendiários", "Destruição em larga escala"]
+        },
+        {
+          "id": 29,
+          "name": "Sierra Madre Casino Chip",
+          "type": "Colecionável",
+          "description": "Fichas exclusivas do Sierra Madre Casino, usadas como moeda dentro do local.",
+          "rarity": "Único",
+          "uses": ["Trocar por itens", "História do jogo"]
+        },
+        {
+          "id": 30,
+          "name": "Vault-Tec Lunchbox",
+          "type": "Colecionável",
+          "description": "Uma lancheira promocional da Vault-Tec, usada para guardar suprimentos ou como item colecionável.",
+          "rarity": "Comum",
+          "uses": [
+            "Armazenar itens",
+            "Decoração"
+          ]
+        },
+        {
+          "id": 31,
+          "name": "Deathclaw Gauntlet",
+          "type": "Arma Corpo-a-Corpo",
+          "description": "Uma arma improvisada feita com garras de Deathclaw, causando danos massivos em ataques corpo-a-corpo.",
+          "rarity": "Raro",
+          "damage": 60,
+          "uses": ["Combate corpo-a-corpo", "Ataques devastadores"]
+        },
+        {
+          "id": 32,
+          "name": "Alien Epoxy",
+          "type": "Consumível",
+          "description": "Um item raro usado para reparar armas sem precisar de peças sobressalentes.",
+          "rarity": "Único",
+          "uses": ["Reparar armas", "Manutenção rápida"]
+        },
+        {
+          "id": 33,
+          "name": "Chinese Stealth Armor",
+          "type": "Armadura",
+          "description": "Uma armadura tática que fornece camuflagem ativa para o usuário.",
+          "rarity": "Incomum",
+          "defense": 20,
+          "uses": ["Furtividade", "Proteção moderada"]
+        },
+        {
+          "id": 34,
+          "name": "Mentats",
+          "type": "Consumível",
+          "description": "Uma droga que aumenta temporariamente as habilidades cognitivas e de percepção.",
+          "rarity": "Comum",
+          "uses": ["Aumentar inteligência", "Melhorar percepção"]
+        },
+        {
+          "id": 35,
+          "name": "Junk Jet",
+          "type": "Arma",
+          "description": "Uma arma experimental que dispara lixo como munição.",
+          "rarity": "Incomum",
+          "damage": 40,
+          "uses": ["Disparar itens comuns", "Reciclagem criativa"]
+        },
+        {
+          "id": 36,
+          "name": "Pip-Boy Holotape Game",
+          "type": "Colecionável",
+          "description": "Um minijogo encontrado no mundo do Fallout, jogável no Pip-Boy.",
+          "rarity": "Comum",
+          "uses": ["Entretenimento", "Colecionismo"]
+        },
+        {
+          "id": 37,
+          "name": "Bozar",
+          "type": "Arma",
+          "description": "Uma metralhadora pesada e altamente precisa.",
+          "rarity": "Raro",
+          "damage": 90,
+          "ammoType": "5.56mm Round"
+        },
+        {
+          "id": 38,
+          "name": "Turbo",
+          "type": "Consumível",
+          "description": "Uma droga que desacelera o tempo temporariamente, permitindo reações rápidas em combate.",
+          "rarity": "Incomum",
+          "uses": ["Desacelerar o tempo", "Melhorar reflexos"]
+        },
+        {
+          "id": 39,
+          "name": "Wasteland Survival Guide",
+          "type": "Livro",
+          "description": "Um guia que aumenta permanentemente certas habilidades de sobrevivência.",
+          "rarity": "Incomum",
+          "uses": ["Aprimorar habilidades", "Item de coleção"]
+        },
+        {
+          "id": 40,
+          "name": "Vertibird Signal Grenade",
+          "type": "Explosivo",
+          "description": "Uma granada que chama um Vertibird para extrair ou apoiar o jogador.",
+          "rarity": "Incomum",
+          "uses": ["Suporte aéreo", "Evacuação rápida"]
+        },
+        {
+          "id": 41,
+          "name": "Psycho",
+          "type": "Consumível",
+          "description": "Uma droga que aumenta temporariamente a força e resistência em combate.",
+          "rarity": "Comum",
+          "uses": ["Melhorar desempenho em combate", "Aumentar força"]
+        },
+        {
+          "id": 42,
+          "name": "Fisto!",
+          "type": "Arma Corpo-a-Corpo",
+          "description": "Uma luva de combate motorizada para ataques de alto impacto.",
+          "rarity": "Raro",
+          "damage": 65,
+          "uses": ["Combate corpo-a-corpo", "Dano de impacto"]
+        },
+        {
+          "id": 43,
+          "name": "Pulse Gun",
+          "type": "Arma de Energia",
+          "description": "Uma pistola que dispara pulsos eletromagnéticos para desativar robôs e eletrônicos.",
+          "rarity": "Único",
+          "damage": 100,
+          "ammoType": "Energy Cell"
+        },
+        {
+          "id": 44,
+          "name": "Missile Launcher",
+          "type": "Arma",
+          "description": "Uma arma pesada que dispara mísseis para causar dano em larga escala.",
+          "rarity": "Incomum",
+          "damage": 150,
+          "ammoType": "Missile"
+        },
+        {
+          "id": 45,
+          "name": "Assaultron Circuit Board",
+          "type": "Componente",
+          "description": "Parte de um robô Assaultron, usada para criar ou consertar tecnologia avançada.",
+          "rarity": "Raro",
+          "uses": ["Construção de robôs", "Peça de reparo"]
+        },
+        {
+          "id": 46,
+          "name": "Beer",
+          "type": "Consumível",
+          "description": "Uma garrafa de cerveja que reduz temporariamente inteligência, mas aumenta carisma.",
+          "rarity": "Comum",
+          "uses": ["Socialização", "Relaxamento"]
+        },
+        {
+          "id": 47,
+          "name": "Pre-War Money",
+          "type": "Colecionável",
+          "description": "Notas de dinheiro de antes da guerra, usadas como material ou item de coleção.",
+          "rarity": "Comum",
+          "uses": ["Comércio", "Decoração"]
+        },
+        {
+          "id": 48,
+          "name": "Ripper",
+          "type": "Arma Corpo-a-Corpo",
+          "description": "Uma serra elétrica portátil que causa danos contínuos em combate corpo-a-corpo.",
+          "rarity": "Incomum",
+          "damage": 50,
+          "uses": ["Combate corpo-a-corpo", "Dano contínuo"]
+        },
+        {
+          "id": 49,
+          "name": "Firelance",
+          "type": "Arma de Energia",
+          "description": "Uma versão alienígena do Alien Blaster, com dano incendiário.",
+          "rarity": "Único",
+          "damage": 85,
+          "ammoType": "Alien Power Cell"
+        },
+        {
+          "id": 50,
+          "name": "Vault Jumpsuit",
+          "type": "Roupa",
+          "description": "O uniforme padrão usado pelos moradores dos Vaults.",
+          "rarity": "Comum",
+          "uses": ["Proteção leve", "Identificação de Vault"]
+        }
+    ]
+  }
+}
